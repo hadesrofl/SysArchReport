@@ -25,4 +25,4 @@ Distributed Smart Production Components
 
 +++
 PERFoRM Architecture
-<img src="assets/Specification-PERFoRM/PERFoRM-Architecture.png" width="800px" height="600px" alt="PERFoRM Architecture"/>
+<img src="assets/Specification-PERFoRM/PERFoRM-Architecture.png" width="80%" height="60%" alt="PERFoRM Architecture"/>
