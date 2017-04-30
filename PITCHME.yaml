@@ -1,2 +1,3 @@
 theme: white
 slide-number: true
+transition: slide
