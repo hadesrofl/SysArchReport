@@ -52,6 +52,6 @@ for the Seamless Production System Reconfiguration</em></font>
 
 +++
 PERFoRM Architecture
-<img src="assets/Specification-PERFoRM/PERFoRM-Architecture.png" width="80%" height="60%" alt="PERFoRM Architecture"/>
-<p><font size="4"><strong>Source:</strong> <em>Specification of the PERFoRM Architecture
-for the Seamless Production System Reconfiguration</em></font></p>
+<img src="assets/Specification-PERFoRM/PERFoRM-Architecture.png" width="70%" height="55%" alt="PERFoRM Architecture"/>
+<font size="4"><strong>Source:</strong> <em>Specification of the PERFoRM Architecture
+for the Seamless Production System Reconfiguration</em></font>
