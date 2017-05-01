@@ -19,8 +19,7 @@
 
 +++
 #### Assumptions for PERFoRM
-While specifiying the requirements for PERFoRM assumptions were made:
-* Assumtions for...
+* While specifiying the requirements for the PERFoRM architecture there were assumptions made for...
  * enhancing planning, simulation and operation features
  * seamless system reconfiguration
  * system based smart production components
@@ -44,23 +43,21 @@ for the Seamless Production System Reconfiguration</em></font>
 <font size="4"><strong>Source:</strong> <em>Specification of the PERFoRM Architecture
 for the Seamless Production System Reconfiguration</em></font>
 
-<!-- +++
-Distributed Control System Approaches
-![Distributed Control System Approaches](assets/Specification-PERFoRM/Distributed-Control-System-Approaches.png)
++++
+#### PERFoRM Architecture
+Resulting out of the assumptions the architecture needs to provide the following components:
+* Middleware
+* Standard Interface
+* Technology Adapter
+
++++
+#### PERFoRM Architecture - Overview
+<img src="assets/Specification-PERFoRM/PERFoRM-Architecture.png" width="70%" height="55%" alt="PERFoRM Architecture"/>
 <font size="4"><strong>Source:</strong> <em>Specification of the PERFoRM Architecture
 for the Seamless Production System Reconfiguration</em></font>
 
 +++
-Distributed Smart Production Components
-![Distributed Smart Production Components](assets/Specification-PERFoRM/Distributed-Smart-Production-Components.png)
-<font size="4"><strong>Source:</strong> <em>Specification of the PERFoRM Architecture
-for the Seamless Production System Reconfiguration</em></font> -->
-
-+++
 #### PERFoRM Architecture - Middleware
-Resulting out of the assumptions the architecture needs to provide the following components:
-
-Middleware
 * Gateway between back-bone and machinery levels
 * Service registration and discovery
 * data transformation
@@ -78,9 +75,3 @@ Middleware
 * exposes legacy systems' data and functionalities according to the PERFoRM standard interfaces
 * converts information of the data format of the legacy systems to the PERFoRM data model
 * strongly involving the HW and SW development and strongly depend on the technology for the middleware
-
-+++
-PERFoRM Architecture (4)
-<img src="assets/Specification-PERFoRM/PERFoRM-Architecture.png" width="70%" height="55%" alt="PERFoRM Architecture"/>
-<font size="4"><strong>Source:</strong> <em>Specification of the PERFoRM Architecture
-for the Seamless Production System Reconfiguration</em></font>
