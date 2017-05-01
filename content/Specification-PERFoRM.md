@@ -2,7 +2,7 @@
 
 +++
 #### What is PERFoRM (1)
-<blockquote><font size="4">The EU HORIZON 2020 project PERFoRM (Production harmonizEd Reconfiguration of Flexible Robots and Machinery) is aiming at the conceptual transformation of existing production systems towards agile, networked plug-and-produce production systems in order to achieve a flexible manufacturing environment based on fast reconfiguration of machinery and robots as response to operational or business events.</font></blockquote>
+<blockquote><font size="5">The EU HORIZON 2020 project PERFoRM (Production harmonizEd Reconfiguration of Flexible Robots and Machinery) is aiming at the <strong>conceptual transformation</strong> of <em>existing</em> production systems towards <strong>agile</strong>, <strong>networked plug-and-produce production systems</strong> in order to achieve a <em>flexible manufacturing environment</em> based on <strong>fast reconfiguration</strong> of machinery and robots as response to operational or business events.</font></blockquote>
 
 +++
 #### What is PERFoRM? (2)
