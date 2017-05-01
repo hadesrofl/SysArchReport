@@ -11,13 +11,9 @@
 
 +++
 #### Emerging Problems
-<ul class="fragment" data-fragment-index="0">
-<li>Currently:</li>
-<ul>
-<li>Mostly centralized legacy systems and control mechanisms</li>
-<li>Heterogenous components</li>
-</ul>
-</ul>
+* Currently:
+ * Mostly centralized legacy systems and control mechanisms
+ * Heterogenous components
 
 <ul class="fragment" data-fragment-index="1">
 <li>Approach for the future:</li>
