@@ -11,7 +11,7 @@
 
 +++
 #### Emerging Problems
-<ul class="fragment" data-fragment-index="1">
+<ul class="fragment" data-fragment-index="0">
 <li>Currently:</li>
 <ul>
 <li>Mostly centralized legacy systems and control mechanisms</li>
@@ -19,7 +19,7 @@
 </ul>
 </ul>
 
-<ul class="fragment" data-fragment-index="2">
+<ul class="fragment" data-fragment-index="1">
 <li>Approach for the future:</li>
 <ul>
 <li>Distributed and agile systems</li>
