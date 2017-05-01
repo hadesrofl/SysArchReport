@@ -28,7 +28,7 @@
 +++
 <font size="6">Assumptions for enhancing Planning, Simulation and Operation Features</font>
 ![Assumptions for enhancing Planning, Simulation and Operation Features](assets/Specification-PERFoRM/Assumptions-Enhance-Planning-Simulation-Operation-Features.png)
-<font size="4"><p><strong>Acronyms:</strong> MES (Manufacturing Exectuion Program), SCADA (Supervisory Control and Data Acquisition), M2M (Machine to Machine), ESB (Enterprise Service Bus), MAS (Multi Agent System)</p></font>
+<font size="4"><p><strong>Acronyms:</strong> MES (Manufacturing Execution Program), SCADA (Supervisory Control and Data Acquisition), M2M (Machine to Machine), ESB (Enterprise Service Bus), MAS (Multi Agent System)</p></font>
 <font size="4"><strong>Source:</strong> <em>Specification of the PERFoRM Architecture
 for the Seamless Production System Reconfiguration</em></font>
 
@@ -77,5 +77,6 @@ for the Seamless Production System Reconfiguration</em></font>
 +++
 #### PERFoRM Architecture - Technology Adapter
 * exposes legacy systems' data and functionalities according to the PERFoRM standard interfaces
-* converts information of the data format of the legacy systems to the PERFoRM data model
-* strongly involving the HW and SW development and strongly depend on the technology for the middleware
+* converts information about the data format of the legacy systems to the PERFoRM data model
+* dependant on the technology for the middleware
+* heavily involves the HW and SW development

@@ -1,5 +1,6 @@
 #### Motivation
 * Market globalization leads to higher demands of customers in terms of quality, cost and product customization
+* Industrial competitiveness also means shorter product lifecycles, increased product variety and shorter time-to-market
 * Companies need to face these changes with new manufacturing paradigms and business models
 * For production digitalization and complete process integration there is a need for concepts, techniques and technologies to support it
 
