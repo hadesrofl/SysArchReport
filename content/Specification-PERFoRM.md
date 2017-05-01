@@ -1,19 +1,19 @@
 ### Specification of the PERFoRM Architecture for the Seamless Production System Reconfiguration
 
 +++
-# Motivation
+#### Motivation
 * Market globalization leads to higher demands of customers in terms of quality, cost and product customization
 * Companies need to face these changes with new manufacturing paradigms and business models
 * For production digitalization and complete process integration there is a need for concepts, techniques and technologies to support it
 
 +++
-# Digitalization leads to...
+#### Digitalization leads to...
 * Resources becoming pluggable and smarter (communicating, cooperating, collaborating)
 * the usage of the Cyber-Physical-Systems (CPS) paradigm
 * the need for a system to handle these heterogenous CPS
 
 +++
-# Emerging Problems
+#### Emerging Problems
 * Currently:
  * Mostly centralized legacy systems and control mechanisms
  * Heterogenous components
@@ -23,7 +23,7 @@
  * Seamless vertical and horizontal system integration
 
 +++
-# PERFoRM
+#### PERFoRM
 * Project of the EU Horizon 2020 research and innovation programme
 * Architecture (currently researched and developed) to support the production digitalization by providing:
  * a distributed control system for smart components (CPS)
@@ -37,7 +37,7 @@
 
 
 +++
-# Assumptions for PERFoRM
+#### Assumptions for PERFoRM
 
 +++
 Assumptions for enhancing Planning, Simulation and Operation Features
