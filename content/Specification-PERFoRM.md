@@ -20,6 +20,7 @@
 +++
 #### Assumptions for PERFoRM
 * While specifiying the requirements for the PERFoRM architecture there were assumptions made for...
+<br/>
  * enhancing planning, simulation and operation features
  * seamless system reconfiguration
  * system based smart production components
@@ -45,10 +46,11 @@ for the Seamless Production System Reconfiguration</em></font>
 
 +++
 #### PERFoRM Architecture
-Resulting out of the assumptions the architecture needs to provide the following components:
-* Middleware
-* Standard Interface
-* Technology Adapter
+* Resulting out of the assumptions the architecture needs to provide the following components:
+<br/>
+ * Middleware
+ * Standard Interface
+ * Technology Adapter
 
 +++
 #### PERFoRM Architecture - Overview
@@ -61,6 +63,8 @@ for the Seamless Production System Reconfiguration</em></font>
 * Gateway between back-bone and machinery levels
 * Service registration and discovery
 * data transformation
+* routing of message exchange
+* prioritization of messages delivery
 * and some more
 
 +++
