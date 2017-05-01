@@ -11,10 +11,19 @@
 
 +++
 #### Emerging Problems
-* Currently:
- * Mostly centralized legacy systems and control mechanisms
- * Heterogenous components
-* Approach for the future:
- * Distributed and agile systems
- * System components functionality decoupled as services => service-based architectures like the Service Oriented Architecture (SOA)
- * Seamless vertical and horizontal system integration
+<ul class="fragment" data-fragment-index="1">
+<li>Currently:</li>
+<ul>
+<li>Mostly centralized legacy systems and control mechanisms</li>
+<li>Heterogenous components</li>
+</ul>
+</ul>
+
+<ul class="fragment" data-fragment-index="2">
+<li>Approach for the future:</li>
+<ul>
+<li>Distributed and agile systems</li>
+<li>System components functionality decoupled as services => service-based architectures like the Service Oriented Architecture (SOA)</li>
+<li>Seamless vertical and horizontal system integration</li>
+</ul>
+</ul>
