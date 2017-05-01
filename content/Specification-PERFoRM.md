@@ -23,34 +23,34 @@
 +++
 Assumptions for enhancing Planning, Simulation and Operation Features
 ![Assumptions for enhancing Planning, Simulation and Operation Features](assets/Specification-PERFoRM/Assumptions-Enhance-Planning-Simulation-Operation-Features.png)
-Source: *Specification of the PERFoRM Architecture
-for the Seamless Production System Reconfiguration*, IEEE, 2016
+<p><font size="4"><strong>Source:</strong> <em>Specification of the PERFoRM Architecture
+for the Seamless Production System Reconfiguration</em></font></p>
 +++
 Assumptions for Seamless System Reconfiguration
 ![Assumptions for Seamless System Reconfiguration](assets/Specification-PERFoRM/Assumptions-Seamless-System-Reconfiguration.png)
 Source: *Specification of the PERFoRM Architecture
-for the Seamless Production System Reconfiguration*, IEEE, 2016
+for the Seamless Production System Reconfiguration*
 
 +++
 Assumptions for System Based Smart Production Components
 ![Assumptions for System Based Smart Production Components](assets/Specification-PERFoRM/Assumptions-System-Based-Smart-Production-Components.png)
 Source: *Specification of the PERFoRM Architecture
-for the Seamless Production System Reconfiguration*, IEEE, 2016
+for the Seamless Production System Reconfiguration*
 
 +++
 Distributed Control System Approaches
 ![Distributed Control System Approaches](assets/Specification-PERFoRM/Distributed-Control-System-Approaches.png)
 Source: *Specification of the PERFoRM Architecture
-for the Seamless Production System Reconfiguration*, IEEE, 2016
+for the Seamless Production System Reconfiguration*
 
 +++
 Distributed Smart Production Components
 ![Distributed Smart Production Components](assets/Specification-PERFoRM/Distributed-Smart-Production-Components.png)
 Source: *Specification of the PERFoRM Architecture
-for the Seamless Production System Reconfiguration*, IEEE, 2016
+for the Seamless Production System Reconfiguration*
 
 +++
 PERFoRM Architecture
 <img src="assets/Specification-PERFoRM/PERFoRM-Architecture.png" width="80%" height="60%" alt="PERFoRM Architecture"/>
 Source: *Specification of the PERFoRM Architecture
-for the Seamless Production System Reconfiguration*, IEEE, 2016
+for the Seamless Production System Reconfiguration*
