@@ -28,7 +28,7 @@ While specifiying the requirements for PERFoRM assumptions were made:
 +++
 <font size="6">Assumptions for enhancing Planning, Simulation and Operation Features</font>
 ![Assumptions for enhancing Planning, Simulation and Operation Features](assets/Specification-PERFoRM/Assumptions-Enhance-Planning-Simulation-Operation-Features.png)
-<font size="6"><p>Acronyms: MES (Manufacturing Exectuion Program), SCADA (), M2M (Machine to Machine), ESB (Enterprise Service Bus), MAS (Multi Agent System)</font>
+<font size="4"><p><strong>Acronyms:</strong> MES (Manufacturing Exectuion Program), SCADA (), M2M (Machine to Machine), ESB (Enterprise Service Bus), MAS (Multi Agent System)</p></font>
 <font size="4"><strong>Source:</strong> <em>Specification of the PERFoRM Architecture
 for the Seamless Production System Reconfiguration</em></font>
 
