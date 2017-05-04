@@ -1,6 +1,7 @@
 \documentclass[conference,compsoc]{IEEEtran}
 \usepackage[utf8]{inputenc}
 %\usepackage{hyperref}
+\usepackage{lipsum}
 \usepackage[pdftex,
 pdfauthor={Rene Kremer},
 pdftitle={An Overview and Comparison of Designs of Architectures for Seamless System Reconfiguration},
@@ -242,38 +243,84 @@ Email: rene.kremer@student.uni-luebeck.de}}
 % make the title area
 \maketitle
 
-% As a general rule, do not put math, special symbols or citations
-% in the abstract
 \begin{abstract}
 Driven by the fourth industrial revolution emerges a need for concepts, methods and technologies which will take on the new challenge of digitalization. In future systems digitalization is an important principle with the goal of processing and collecting large amounts of data as well as having smart, pluggable, cooperating and collaborating components. A special design process has to be addressed to allow building evolvable and complex systems for various requirements and use cases. This paper focuses on architectures like PERFoRM and the PRIME Framework for Multi Agent Systems (MAS) by comparing them, as both are trying to support the new upcoming system designs.
 \end{abstract}
+
+\section{Introduction} % first page
+% no \IEEEPARstart
+
+\lipsum[1-6]
+
+
+\hfill rk
+
+\hfill Juni 15, 2017
 
 % no keywords
 
 \IEEEpeerreviewmaketitle
 
+\section{State of the Art Methodologies} % second page
+In this section different approaches will be introduced, which are the results of successful projects and their experience. 
+
+\subsection{Multi-Agent Systems}
+Multi-Agent Systems (MAS) are an approach to develop an agent based decentralized control architecture for production systems. This allows an easy support for cyber-physical concepts and the creation of smart components as agents in the system. This means the production system is a collection of agents, where agents interact with each other. Every agent got an own action scope and is aware of the status of its surrounding agents. Therefore it is possible for them to self-organize in the case of changes and disturbances, which means they reconfigure and operate accordingly to its environment \cite{HarmonizedSystems}.
+
+\subsection{Plug and Produce Technology}
+"Plug and Produce" technologies try to build modules, which can integrate intelligent components. This is accomplished by using standard interfaces and adapters for existing interfaces. Following this approach it is possible to use plug-and-produce devices, which could have built-in intelligence and profit of sensors and actors. This intention might be used to integrate new capabilities to an existing production systems or a new one \cite{HarmonizedSystems}. Self*-Features are an important role in these upcoming architectures \cite{SpecPERFoRM} and the "Plug and Produce" technology should focus on self-adaptive and reconfigurable components to support a flexible solution. MAS was used in some projects to accomplish plug-and-produce with self-adaption. PRIME, which was developed in the scope of the PRIME project and funded by the European FP7 program, used a MAS in this context to support semi-automatically configuration through a proper human-machine-interface (HMI). Reconfiguration in the PRIME architecture is handled through different agent roles even enabling integration of legacy systems \cite{HarmonizedSystems}.
+
+\subsection{Service-oriented Architecture}
+Other projects researched the possible use of Service-oriented Architectures (SoA) as in the context of Web services. The principle of SoA could be used at a device and application level to enable and integrate distributed smart embedded systems. These components will be handled as services, which are flexible parts in this kind of architecture. Therefore it is important to create an open and flexible environment extended by the scope of the collaborative SoA \cite{HarmonizedSystems}. This means that the industrial middleware needs to be able to discover and register new services and also expose functionalities of the heterogeneous components as services \cite{SpecPERFoRM}. This means that data transformation for these different services needs to be handled by the middleware as well and add to the intelligence of this part of the architecture. If the groundwork is done, integration of new services and communication between existing ones can be simplified on different levels of the enterprise architecture. As services are interoperable and reusable this approach allows to develop self-learning production systems by using data mining and context awareness \cite{HarmonizedSystems}.
 
 
-\section{Introduction}
-% no \IEEEPARstart
-This demo file is intended to serve as a ``starter file''
-for IEEE Computer Society conference papers produced under \LaTeX\ using
-IEEEtran.cls version 1.8b and later.
-% You must have at least 2 lines in the paragraph with the drop letter
-% (should never be an issue)
-I wish you the best of success.
+\subsection{Cloud Technology}
+Towards the goal to develop an architecture that can be used in the context of industry 4.0 and its digitalization, the possible use of cloud technologies was investigated. Cloud technologies are used to build a common data model to integrate data of heterogeneous components together onto one platform. This allows to create a systematic knowledge generation from the design phase till the usage phase by knowledge gathering and refining. Some projects even showed that SoA and Cloud technologies work hand in hand \cite{HarmonizedSystems}.  
 
-\hfill rk
- 
-\hfill Juni 15, 2017
+\subsection{Conclusion}
+Different solutions were developed for the new agile-manufacturing generation using agent-systems, (smart) component networks, service-oriented paradigms and cloud principles to overcome the challenges of the migration from traditional production systems towards a cyber-physical-production-system \cite{HarmonizedSystems}.
 
-\subsection{Subsection Heading Here}
-Subsection text here.
+1. Integration: The problem in each of these solutions is the individual integration of existing components and legacy systems. Therefore a common interface and standard needs to be established for a wide use in different industries.
 
+2. Flexibility: It is not enough to develop new concepts and technologies if it is not benefitting the goal of businesses. Requirements and performance indicators needs to be analyzed to support those real business requirements and therefore improve the overall performance of the business.
 
-\subsubsection{Subsubsection Heading Here}
-Subsubsection text here.
+3. Human Factor:  As shortly mentioned to PRIME, the human factor is a flexibility driver and therefore needs special attention. Not only highly usable HMIs need to be developed but also the impact of these upcoming concepts and architectures. Necessary skills for operators and maintainers could and possibly will change i.e. activities on education and training become important parts so that human workers are involved in innovation processes and can keep up with new state of the art procedures and technologies.
 
+4. Maturity and Migration: These new approaches, which are currently state of the art, are not fully tested in industry. As the migration of new technologies will have a big impact on production and costs a good and tested migration strategy needs to be developed. A special attention lies on the smooth integration of legacy systems.
+
+\section{PERFoRM} % third page
+\section{PRIME} % fourth page
+\section{Comparison} % fifth to sixth page
+\section{Conclusion} % sixth page
+The conclusion goes here.
+
+% use section* for acknowledgment
+\ifCLASSOPTIONcompsoc
+  % The Computer Society usually uses the plural form
+  \section*{Acknowledgments}
+\else
+  % regular IEEE prefers the singular form
+  \section*{Acknowledgment}
+\fi
+
+The authors would like to thank...
+
+\begin{thebibliography}{1}
+
+\bibitem{Hybrid}
+Tiago Santos and Luis Ribeiro and Andre Dionisio Rocha and Jose Barata, \emph{A system reconfiguration architecture for hybrid
+automation systems based in agents and
+programmable logic controllers}, IEEE, 2016
+
+\bibitem{SpecPERFoRM}
+Paulo Leitão and José Barbosa and Arnaldo Pereira and José Barata  and Armando W. Colombo, \emph{Specification of the PERFoRM Architecture for the Seamless Production System Reconfiguration}, IEEE, 2016
+
+\bibitem{HarmonizedSystems}
+A. Calà and M. Foehr and D. Rohrmus and N. Weinert and O. Meyer and M. Taisch and F. Boschi and P. M. Fantini and P. Perlo and P. Petrali and J. Vallhagen, \emph{Towards Industrial Exploitation of Innovative and Harmonized Production Systems}, IEEE, 2016
+\end{thebibliography}
+
+% that's all folks
+\end{document}
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
@@ -357,45 +404,5 @@ Subsubsection text here.
 %\hline
 %\end{tabular}
 %\end{table}
-\section{State of the Art Methodologies}
-
-\section{Conclusion}
-The conclusion goes here.
-
-% use section* for acknowledgment
-\ifCLASSOPTIONcompsoc
-  % The Computer Society usually uses the plural form
-  \section*{Acknowledgments}
-\else
-  % regular IEEE prefers the singular form
-  \section*{Acknowledgment}
-\fi
-
-
-The authors would like to thank...
-
-\begin{thebibliography}{1}
-
-\bibitem{IEEEhowto:kopka}
-H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
-  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
-
-\bibitem{Hybrid}
-Tiago Santos and Luis Ribeiro and Andre Dionisio Rocha and Jose Barata, \emph{A system reconfiguration architecture for hybrid
-automation systems based in agents and
-programmable logic controllers}, IEEE, 2016
-
-\bibitem{SpecPERFoRM}
-Paulo Leitão and José Barbosa and Arnaldo Pereira and José Barata  and Armando W. Colombo, \emph{Specification of the PERFoRM Architecture for the Seamless Production System Reconfiguration}, IEEE, 2016
-
-\bibitem{HarmonizedSystems}
-A. Calà and M. Foehr and D. Rohrmus and N. Weinert and O. Meyer and M. Taisch and F. Boschi and P. M. Fantini and P. Perlo and P. Petrali and J. Vallhagen, \emph{Towards Industrial Exploitation of Innovative and Harmonized Production Systems}, IEEE, 2016
-\end{thebibliography}
-
-
-
-
-% that's all folks
-\end{document}
 
 
