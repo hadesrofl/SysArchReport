@@ -1,13 +1,13 @@
-\documentclass[conference,compsoc]{IEEEtran}
+\documentclass[conference,compsoc,hidelinks]{IEEEtran}
 \usepackage[utf8]{inputenc}
 %\usepackage{hyperref}
 \usepackage{lipsum}
 \usepackage{graphicx}
 \usepackage[pdftex,
 pdfauthor={Rene Kremer},
-pdftitle={An Overview and Comparison of Designs of Architectures for Seamless System Reconfiguration},
-pdfsubject={Overview and Comparison of Architectures like PERFoRM and PRIME in the field of the industrial revolution},
-pdfkeywords={System Architecture, Seamless System Reconfiguration, Multi Agent System},
+pdftitle={An Overview and Comparison of State of the Art Methodologies for the upcoming challenges of industrial digitization},
+pdfsubject={Overview and Comparison of Architectures like PERFoRM and PRIME in the field of industrial revolution},
+pdfkeywords={System Architecture, Seamless System Reconfiguration, Multi Agent System, Industrial Revolution, Industrial Digitization},
 pdfproducer={PDFLatex},
 pdfcreator={PDFLatex}]{hyperref}
 
@@ -25,216 +25,16 @@ pdfcreator={PDFLatex}]{hyperref}
 % *** GRAPHICS RELATED PACKAGES ***
 %
 \ifCLASSINFOpdf
-  % \usepackage[pdftex]{graphicx}
-  % declare the path(s) where your graphic files are
-  % \graphicspath{{../pdf/}{../jpeg/}}
-  % and their extensions so you won't have to specify these with
-  % every instance of \includegraphics
-  % \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
 \else
-  % or other class option (dvipsone, dvipdf, if not using dvips). graphicx
-  % will default to the driver specified in the system graphics.cfg if no
-  % driver is specified.
-  % \usepackage[dvips]{graphicx}
-  % declare the path(s) where your graphic files are
-  % \graphicspath{{../eps/}}
-  % and their extensions so you won't have to specify these with
-  % every instance of \includegraphics
-  % \DeclareGraphicsExtensions{.eps}
 \fi
-% graphicx was written by David Carlisle and Sebastian Rahtz. It is
-% required if you want graphics, photos, etc. graphicx.sty is already
-% installed on most LaTeX systems. The latest version and documentation
-% can be obtained at: 
-% http://www.ctan.org/pkg/graphicx
-% Another good source of documentation is "Using Imported Graphics in
-% LaTeX2e" by Keith Reckdahl which can be found at:
-% http://www.ctan.org/pkg/epslatex
-%
-% latex, and pdflatex in dvi mode, support graphics in encapsulated
-% postscript (.eps) format. pdflatex in pdf mode supports graphics
-% in .pdf, .jpeg, .png and .mps (metapost) formats. Users should ensure
-% that all non-photo figures use a vector format (.eps, .pdf, .mps) and
-% not a bitmapped formats (.jpeg, .png). The IEEE frowns on bitmapped formats
-% which can result in "jaggedy"/blurry rendering of lines and letters as
-% well as large increases in file sizes.
-%
-% You can find documentation about the pdfTeX application at:
-% http://www.tug.org/applications/pdftex
-
-
-
-
-
-% *** MATH PACKAGES ***
-%
-%\usepackage{amsmath}
-% A popular package from the American Mathematical Society that provides
-% many useful and powerful commands for dealing with mathematics.
-%
-% Note that the amsmath package sets \interdisplaylinepenalty to 10000
-% thus preventing page breaks from occurring within multiline equations. Use:
-%\interdisplaylinepenalty=2500
-% after loading amsmath to restore such page breaks as IEEEtran.cls normally
-% does. amsmath.sty is already installed on most LaTeX systems. The latest
-% version and documentation can be obtained at:
-% http://www.ctan.org/pkg/amsmath
-
-
-
-
-
-% *** SPECIALIZED LIST PACKAGES ***
-%
-%\usepackage{algorithmic}
-% algorithmic.sty was written by Peter Williams and Rogerio Brito.
-% This package provides an algorithmic environment fo describing algorithms.
-% You can use the algorithmic environment in-text or within a figure
-% environment to provide for a floating algorithm. Do NOT use the algorithm
-% floating environment provided by algorithm.sty (by the same authors) or
-% algorithm2e.sty (by Christophe Fiorio) as the IEEE does not use dedicated
-% algorithm float types and packages that provide these will not provide
-% correct IEEE style captions. The latest version and documentation of
-% algorithmic.sty can be obtained at:
-% http://www.ctan.org/pkg/algorithms
-% Also of interest may be the (relatively newer and more customizable)
-% algorithmicx.sty package by Szasz Janos:
-% http://www.ctan.org/pkg/algorithmicx
-
-
-
-
-% *** ALIGNMENT PACKAGES ***
-%
-%\usepackage{array}
-% Frank Mittelbach's and David Carlisle's array.sty patches and improves
-% the standard LaTeX2e array and tabular environments to provide better
-% appearance and additional user controls. As the default LaTeX2e table
-% generation code is lacking to the point of almost being broken with
-% respect to the quality of the end results, all users are strongly
-% advised to use an enhanced (at the very least that provided by array.sty)
-% set of table tools. array.sty is already installed on most systems. The
-% latest version and documentation can be obtained at:
-% http://www.ctan.org/pkg/array
-
-
-% IEEEtran contains the IEEEeqnarray family of commands that can be used to
-% generate multiline equations as well as matrices, tables, etc., of high
-% quality.
-
-
-
-
-% *** SUBFIGURE PACKAGES ***
-%\ifCLASSOPTIONcompsoc
-%  \usepackage[caption=false,font=footnotesize,labelfont=sf,textfont=sf]{subfig}
-%\else
-%  \usepackage[caption=false,font=footnotesize]{subfig}
-%\fi
-% subfig.sty, written by Steven Douglas Cochran, is the modern replacement
-% for subfigure.sty, the latter of which is no longer maintained and is
-% incompatible with some LaTeX packages including fixltx2e. However,
-% subfig.sty requires and automatically loads Axel Sommerfeldt's caption.sty
-% which will override IEEEtran.cls' handling of captions and this will result
-% in non-IEEE style figure/table captions. To prevent this problem, be sure
-% and invoke subfig.sty's "caption=false" package option (available since
-% subfig.sty version 1.3, 2005/06/28) as this is will preserve IEEEtran.cls
-% handling of captions.
-% Note that the Computer Society format requires a sans serif font rather
-% than the serif font used in traditional IEEE formatting and thus the need
-% to invoke different subfig.sty package options depending on whether
-% compsoc mode has been enabled.
-%
-% The latest version and documentation of subfig.sty can be obtained at:
-% http://www.ctan.org/pkg/subfig
-
-
-
-
-% *** FLOAT PACKAGES ***
-%
-%\usepackage{fixltx2e}
-% fixltx2e, the successor to the earlier fix2col.sty, was written by
-% Frank Mittelbach and David Carlisle. This package corrects a few problems
-% in the LaTeX2e kernel, the most notable of which is that in current
-% LaTeX2e releases, the ordering of single and double column floats is not
-% guaranteed to be preserved. Thus, an unpatched LaTeX2e can allow a
-% single column figure to be placed prior to an earlier double column
-% figure.
-% Be aware that LaTeX2e kernels dated 2015 and later have fixltx2e.sty's
-% corrections already built into the system in which case a warning will
-% be issued if an attempt is made to load fixltx2e.sty as it is no longer
-% needed.
-% The latest version and documentation can be found at:
-% http://www.ctan.org/pkg/fixltx2e
-
-
-%\usepackage{stfloats}
-% stfloats.sty was written by Sigitas Tolusis. This package gives LaTeX2e
-% the ability to do double column floats at the bottom of the page as well
-% as the top. (e.g., "\begin{figure*}[!b]" is not normally possible in
-% LaTeX2e). It also provides a command:
-%\fnbelowfloat
-% to enable the placement of footnotes below bottom floats (the standard
-% LaTeX2e kernel puts them above bottom floats). This is an invasive package
-% which rewrites many portions of the LaTeX2e float routines. It may not work
-% with other packages that modify the LaTeX2e float routines. The latest
-% version and documentation can be obtained at:
-% http://www.ctan.org/pkg/stfloats
-% Do not use the stfloats baselinefloat ability as the IEEE does not allow
-% \baselineskip to stretch. Authors submitting work to the IEEE should note
-% that the IEEE rarely uses double column equations and that authors should try
-% to avoid such use. Do not be tempted to use the cuted.sty or midfloat.sty
-% packages (also by Sigitas Tolusis) as the IEEE does not format its papers in
-% such ways.
-% Do not attempt to use stfloats with fixltx2e as they are incompatible.
-% Instead, use Morten Hogholm'a dblfloatfix which combines the features
-% of both fixltx2e and stfloats:
-%
-% \usepackage{dblfloatfix}
-% The latest version can be found at:
-% http://www.ctan.org/pkg/dblfloatfix
-
-
-
-
-% *** PDF, URL AND HYPERLINK PACKAGES ***
-%
-%\usepackage{url}
-% url.sty was written by Donald Arseneau. It provides better support for
-% handling and breaking URLs. url.sty is already installed on most LaTeX
-% systems. The latest version and documentation can be obtained at:
-% http://www.ctan.org/pkg/url
-% Basically, \url{my_url_here}.
-
-
-
-
-% *** Do not adjust lengths that control margins, column widths, etc. ***
-% *** Do not use packages that alter fonts (such as pslatex).         ***
-% There should be no need to do such things with IEEEtran.cls V1.6 and later.
-% (Unless specifically asked to do so by the journal or conference you plan
-% to submit to, of course. )
-
-
 % correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor}
 
 
 \begin{document}
-%
-% paper title
-% Titles are generally capitalized except for words such as a, an, and, as,
-% at, but, by, for, in, nor, of, on, or, the, to and up, which are usually
-% not capitalized unless they are the first or last word of the title.
-% Linebreaks \\ can be used within to get better formatting as desired.
-% Do not put math or special symbols in the title.
-\title{An Overview and Comparison of Designs of Architectures for Seamless System Reconfiguration}
 
+\title{An Overview and Comparison of State of the Art Methodologies for the upcoming challenges of industrial digitization}
 
-% author names and affiliations
-% use a multiple column layout for up to three different
-% affiliations
 \author{\IEEEauthorblockN{René Kremer}
 \IEEEauthorblockA{University of Lübeck\\
 %Institute of Computer Engineering\\
@@ -250,13 +50,28 @@ Driven by the fourth industrial revolution emerges a need for concepts, methods 
 
 \section{Introduction} % first page
 % no \IEEEPARstart
+The world wide trend for globalization pressures the manufacturing domain. Especially Europe is pressured by constantly rising US and Asian competitors. This leads to customers being able to order from foreign companies and products eventually being more customized, cheaper and with higher quality. This circumstance drives manufacturing companies to find solutions to meet those requirements \cite{HarmonizedSystems}. 
 
-\lipsum[1-6]
+While striving for ways to reduce production costs and raise quality of the products, another factor to the company performance are disturbances like delays, shortages from suppliers or resources breakdowns. These disturbances can have a deep impact on the performance and might lead to losing customers. This world-market reshape raises the urge to develop new manufacturing paradigms, new manufacturing control systems and smarter manufacturing equipment with features such as modularity, reconfigurability and flexibility to enable a complete process integration. The underlying basis for this integration is production digitization, massive information exchange and processing. 
+
+The use of Internet of Things (IoT) allows to collect massive sensorial data, which can be processed by Big data techniques. This allows production resources to become smarter, pluggable and distributed. The design of production systems shifts from traditional monolithic hierarchical systems into a distributed and horizontal structure, where heterogeneous components are cooperating and collaborating with another. A common paradigm to reach such a structure is called Cyber-Physical-System (CPS), where the physical (real world) and logical part (cyber world) are merged \cite{SpecPERFoRM}.
+
+National and transnational programs emerged to support research on these scientific and technological areas. These programs to solving problems of the industrial revolution are called: "Industrie 4.0" in Germany, "Made in Sweden 2030" in Sweden, "La Nouvelle France Industrielle" in France, "Smart Industry" in Netherlands, "Industria Conectada 4.0" in Spain, "Innovate UK" in United Kingdom and "Fabbrica Intelligente" in Italy \cite{SpecPERFoRM}. 
+
+The European commission, industry and research institutes are trying to solve these new problems and issues, but only few brought successful solutions into industrial applications. Many projects focus on solving specific problems but neglect other technological issues. Research projects are often using non-standardized interfaces and platforms, which aren't yet applied in industry. 
+
+Some projects showed that Multi-Agent Systems (MAS) provide a distributed intelligence to the systems components while Service-oriented Architecture (SoA) provide plugability and also vertical and horizontal system integration. For data processing and communication ontologies are needed to define a common data model.
+
+The FP7 PRIME project developed an agent based architecture, which will be topic of \autoref{PRIME}, to allow semi-automatical reconfiguration through aggregating and compositing skills in combination with a Human Machine Interface Agent, that works as a gateway user interface providing different system users, system configurations and specifications. PRIME shows how reconfiguration by parametrization can be done by using MAS.
+
+The PERFoRM project, which will be introduced in \autoref{PERFoRM}, combines existing solutions of successful public and private research projects into one common platform to allow an industrial adoption \cite{HarmonizedSystems}. PERFoRM aims to develop an approach to integrate legacy systems through adapters, allow seamless production system reconfiguration through the plug-and-produce concept and human interactions, but also provides advanced tools like intelligent decision support, scheduling and simulation to support the system \cite{SpecPERFoRM}.
+
+This report gives an overview of state of the art technologies addressing the issues of industrial revolution and compares the PRIME architecture with the PERFoRM architecture, which aim to provide solutions for these new cyber-physical-production-systems (CPPS).
 
 
-\hfill rk
+%\hfill rk
 
-\hfill Juni 15, 2017
+%\hfill Juni 15, 2017
 
 % no keywords
 
@@ -289,11 +104,11 @@ Different solutions were developed for the new agile-manufacturing generation us
 
 4. Maturity and Migration: These new approaches, which are currently state of the art, are not fully tested in industry. As the migration of new technologies will have a big impact on the production and expenses of a company a good and tested migration strategy needs to be developed. Special attention lies on the smooth integration of legacy systems.
 
-\section{PRIME} % third page
+\section{PRIME} \label{PRIME}% third page
 \lipsum[1-10]
-\section{PERFoRM} % fourth page
-This section gives a brief introduction to PERFoRM, its requirements, assumptions and architectural elements.
-\subsection{Requirements}
+\section{PERFoRM} \label{PERFoRM} % fourth page
+This section gives a brief introduction to PERFoRM, its motivation, assumptions and architectural elements.
+\subsection{Motivation}
 The PERFoRM project is funded by the European Unions Horizon 2020 research and innovation programme and investigates the requirements for new innovative production systems. PERFoRM does not try to develop a new architecture from scratch but instead tries to re-use the results of previous successful projects in this field \cite{SpecPERFoRM}. 
 \subsection{Assumptions}
 1. Integrate legacy systems: As most of the industry uses legacy systems the integration of these systems is an important part to consider. Standard interfaces for syntax and semantic define how to communicate with components of the system. Technology adapters connect existing components to these interfaces. Once these interfaces and adapters are commonly established heterogeneous components can be connected to the communication infrastructure, which can address other backbone level systems via Machine-to-Machine (M2M) and Enterprise-Service-Bus (ESB) technologies.
@@ -340,16 +155,16 @@ The authors would like to thank...
 
 \begin{thebibliography}{1}
 
-\bibitem{Hybrid}
+\bibitem{HarmonizedSystems}
+A. Calà and M. Foehr and D. Rohrmus and N. Weinert and O. Meyer and M. Taisch and F. Boschi and P. M. Fantini and P. Perlo and P. Petrali and J. Vallhagen, \emph{Towards Industrial Exploitation of Innovative and Harmonized Production Systems}, IEEE, 2016
+
+\bibitem{SpecPERFoRM}
+Paulo Leitão and José Barbosa and Arnaldo Pereira and José Barata  and Armando W. Colombo, \emph{Specification of the PERFoRM Architecture for the Seamless Production System Reconfiguration}, IEEE, 2016\bibitem{Hybrid}
+
 Tiago Santos and Luis Ribeiro and Andre Dionisio Rocha and Jose Barata, \emph{A system reconfiguration architecture for hybrid
 automation systems based in agents and
 programmable logic controllers}, IEEE, 2016
 
-\bibitem{SpecPERFoRM}
-Paulo Leitão and José Barbosa and Arnaldo Pereira and José Barata  and Armando W. Colombo, \emph{Specification of the PERFoRM Architecture for the Seamless Production System Reconfiguration}, IEEE, 2016
-
-\bibitem{HarmonizedSystems}
-A. Calà and M. Foehr and D. Rohrmus and N. Weinert and O. Meyer and M. Taisch and F. Boschi and P. M. Fantini and P. Perlo and P. Petrali and J. Vallhagen, \emph{Towards Industrial Exploitation of Innovative and Harmonized Production Systems}, IEEE, 2016
 \end{thebibliography}
 
 % that's all folks
