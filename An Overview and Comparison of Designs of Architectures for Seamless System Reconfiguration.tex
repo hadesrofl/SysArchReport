@@ -2,6 +2,7 @@
 \usepackage[utf8]{inputenc}
 %\usepackage{hyperref}
 \usepackage{lipsum}
+\usepackage{graphicx}
 \usepackage[pdftex,
 pdfauthor={Rene Kremer},
 pdftitle={An Overview and Comparison of Designs of Architectures for Seamless System Reconfiguration},
@@ -262,34 +263,66 @@ Driven by the fourth industrial revolution emerges a need for concepts, methods 
 \IEEEpeerreviewmaketitle
 
 \section{State of the Art Methodologies} % second page
-In this section different approaches will be introduced, which are the results of successful projects and their experience. 
+In this section different approaches will be introduced, which are the results of successful projects. 
 
 \subsection{Multi-Agent Systems}
-Multi-Agent Systems (MAS) are an approach to develop an agent based decentralized control architecture for production systems. This allows an easy support for cyber-physical concepts and the creation of smart components as agents in the system. This means the production system is a collection of agents, where agents interact with each other. Every agent got an own action scope and is aware of the status of its surrounding agents. Therefore it is possible for them to self-organize in the case of changes and disturbances, which means they reconfigure and operate accordingly to its environment \cite{HarmonizedSystems}.
+Multi-Agent Systems (MAS) are an approach to develop an agent based decentralized control architecture for production systems. This allows an easy support for cyber-physical concepts and the creation of smart components as agents in the system. This means the production system is a collection of agents, where agents interact with each other. Every agent got an own action scope and is aware of the status of its surrounding agents. Therefore it is possible for them to self-organize in case of changes and disturbances, which means they reconfigure and operate accordingly to its environment \cite{HarmonizedSystems}.
 
 \subsection{Plug and Produce Technology}
-"Plug and Produce" technologies try to build modules, which can integrate intelligent components. This is accomplished by using standard interfaces and adapters for existing interfaces. Following this approach it is possible to use plug-and-produce devices, which could have built-in intelligence and profit of sensors and actors. This intention might be used to integrate new capabilities to an existing production systems or a new one \cite{HarmonizedSystems}. Self*-Features are an important role in these upcoming architectures \cite{SpecPERFoRM} and the "Plug and Produce" technology should focus on self-adaptive and reconfigurable components to support a flexible solution. MAS was used in some projects to accomplish plug-and-produce with self-adaption. PRIME, which was developed in the scope of the PRIME project and funded by the European FP7 program, used a MAS in this context to support semi-automatically configuration through a proper human-machine-interface (HMI). Reconfiguration in the PRIME architecture is handled through different agent roles even enabling integration of legacy systems \cite{HarmonizedSystems}.
+"Plug and Produce" technologies try to build modules, which can integrate intelligent components. This is accomplished by using standard interfaces and adapters for existing interfaces. Following this approach it is possible to use plug-and-produce devices, which could have built-in intelligence and profit of sensors and actors. These plug-and-produce devices might be used to integrate new capabilities to an existing production systems or a new one \cite{HarmonizedSystems}. Self*-Features possess an important role in these upcoming architectures \cite{SpecPERFoRM} and the "Plug and Produce" technology should focus on self-adaptive and reconfigurable components to support a flexible solution. MAS was used in some projects to accomplish plug-and-produce with self-adaption. PRIME, which was developed in scope of the PRIME project and funded by the European FP7 program, used a MAS in this context to support semi-automatical configuration through a human-machine-interface (HMI). Reconfiguration in the PRIME architecture is handled through different agent roles and enables the integration of legacy systems \cite{HarmonizedSystems}.
 
 \subsection{Service-oriented Architecture}
-Other projects researched the possible use of Service-oriented Architectures (SoA) as in the context of Web services. The principle of SoA could be used at a device and application level to enable and integrate distributed smart embedded systems. These components will be handled as services, which are flexible parts in this kind of architecture. Therefore it is important to create an open and flexible environment extended by the scope of the collaborative SoA \cite{HarmonizedSystems}. This means that the industrial middleware needs to be able to discover and register new services and also expose functionalities of the heterogeneous components as services \cite{SpecPERFoRM}. This means that data transformation for these different services needs to be handled by the middleware as well and add to the intelligence of this part of the architecture. If the groundwork is done, integration of new services and communication between existing ones can be simplified on different levels of the enterprise architecture. As services are interoperable and reusable this approach allows to develop self-learning production systems by using data mining and context awareness \cite{HarmonizedSystems}.
+Other projects researched the possible use of Service-oriented Architectures (SoA), which are mostly commonly used in the context of Web services. The principle of SoA could be used at a device and application level to enable and integrate distributed smart embedded systems. These components are handled as services, which are flexible parts in this kind of architecture. Therefore it is important to create an open and flexible environment that is extended by the scope of the collaborative SoA \cite{HarmonizedSystems}. This means that the industrial middleware needs to be able to discover and register new services and also expose functionalities of the heterogeneous components as services \cite{SpecPERFoRM}. Data transformation for these different services also needs to be handled by the middleware, which adds additional intelligence to this component. Once the groundwork is done, integration of new services and communication between existing ones can be simplified on different levels of the enterprise architecture. As services are interoperable and reusable this approach allows to develop self-learning production systems by using data mining and context awareness \cite{HarmonizedSystems}.
 
 
 \subsection{Cloud Technology}
-Towards the goal to develop an architecture that can be used in the context of industry 4.0 and its digitalization, the possible use of cloud technologies was investigated. Cloud technologies are used to build a common data model to integrate data of heterogeneous components together onto one platform. This allows to create a systematic knowledge generation from the design phase till the usage phase by knowledge gathering and refining. Some projects even showed that SoA and Cloud technologies work hand in hand \cite{HarmonizedSystems}.  
+Towards the goal of developing an architecture that can be used in the context of industry 4.0 and its digitalization, the possible use of cloud technologies was investigated. Cloud technologies are used to build a common data model to integrate data of heterogeneous components together onto one platform. This allows the creation of a systematic knowledge generation ranging from design till usage phase by knowledge gathering and refining. Some projects even showed that SoA and Cloud technologies work hand in hand \cite{HarmonizedSystems}.  
 
 \subsection{Conclusion}
-Different solutions were developed for the new agile-manufacturing generation using agent-systems, (smart) component networks, service-oriented paradigms and cloud principles to overcome the challenges of the migration from traditional production systems towards a cyber-physical-production-system \cite{HarmonizedSystems}.
+Different solutions were developed for the new agile-manufacturing generation using agent-systems, (smart) component networks, service-oriented paradigms and cloud principles to overcome the challenges of the migration from traditional production systems towards cyber-physical-production-systems (CPPS) \cite{HarmonizedSystems}.
 
-1. Integration: The problem in each of these solutions is the individual integration of existing components and legacy systems. Therefore a common interface and standard needs to be established for a wide use in different industries.
+1. Integration: The problem posed by each of these solutions is the individual integration of existing components and legacy systems. Therefore a common interface and standard needs to be established for a wide use in different industries.
 
-2. Flexibility: It is not enough to develop new concepts and technologies if it is not benefitting the goal of businesses. Requirements and performance indicators needs to be analyzed to support those real business requirements and therefore improve the overall performance of the business.
+2. Support Businesses: It is not enough to develop new concepts and technologies if it is not benefiting the goal of businesses. Requirements and performance indicators needs to be analyzed to support those real business requirements and therefore improve the overall performance of the business.
 
-3. Human Factor:  As shortly mentioned to PRIME, the human factor is a flexibility driver and therefore needs special attention. Not only highly usable HMIs need to be developed but also the impact of these upcoming concepts and architectures. Necessary skills for operators and maintainers could and possibly will change i.e. activities on education and training become important parts so that human workers are involved in innovation processes and can keep up with new state of the art procedures and technologies.
+3. Human Factor:  The human factor is a flexibility driver and therefore needs special attention. Not only highly usable HMIs need to be developed. The impact of these upcoming concepts and architectures needs to be analyzed and evaluated. Necessary skills for operators and maintainers possibly will change. Activities on education and training become important parts so that human workers can keep up with new state of the art procedures and technologies.
 
-4. Maturity and Migration: These new approaches, which are currently state of the art, are not fully tested in industry. As the migration of new technologies will have a big impact on production and costs a good and tested migration strategy needs to be developed. A special attention lies on the smooth integration of legacy systems.
+4. Maturity and Migration: These new approaches, which are currently state of the art, are not fully tested in industry. As the migration of new technologies will have a big impact on the production and expenses of a company a good and tested migration strategy needs to be developed. Special attention lies on the smooth integration of legacy systems.
 
-\section{PERFoRM} % third page
-\section{PRIME} % fourth page
+\section{PRIME} % third page
+\lipsum[1-10]
+\section{PERFoRM} % fourth page
+This section gives a brief introduction to PERFoRM, its requirements, assumptions and architectural elements.
+\subsection{Requirements}
+The PERFoRM project is funded by the European Unions Horizon 2020 research and innovation programme and investigates the requirements for new innovative production systems. PERFoRM does not try to develop a new architecture from scratch but instead tries to re-use the results of previous successful projects in this field \cite{SpecPERFoRM}. 
+\subsection{Assumptions}
+1. Integrate legacy systems: As most of the industry uses legacy systems the integration of these systems is an important part to consider. Standard interfaces for syntax and semantic define how to communicate with components of the system. Technology adapters connect existing components to these interfaces. Once these interfaces and adapters are commonly established heterogeneous components can be connected to the communication infrastructure, which can address other backbone level systems via Machine-to-Machine (M2M) and Enterprise-Service-Bus (ESB) technologies.
+
+2. Integrate advanced planning and simulation applications: New CPPS are based on smart components. To support smart and self*-features of those devices it is essential to allow simulation and planning. This allows them to be agile and adaptive to its surroundings. A way to enable this is using MAS and cloud technologies to propagate strategies and decision making.
+
+3. Seamless data representation: Keeping in mind that devices are mostly heterogeneous different representations of data need to be processed. An standard representation of industrial data models and gateways for data transformation on machinery and backbone level are needed to accomplish this problem.
+
+4. Components and Configuration on the fly: Disturbances of the work-flow need to be recognized and handled. Distributed approaches, e.g. MAS or SoA, combined with registry and discovery mechanisms enable the architecture to support a plug-and-play approach for components. In case of disturbances, planned or not, e.g. maintenance or device failure, reconfiguration of running components might be necessary. Other projects, like PRIME, showed concepts to support reconfiguration and also self*-features in an productive environment.
+
+5. Distributed and heterogeneous components: In addition to the before mentioned standard interfaces and technology adapters, service-oriented design principles like SoA allow a more abstract view of distributed and heterogeneous components. The system can expose functionalities as services and aggregate and composite those services. Therefore the combination of services can create new services and also describe services used for self-organization of smart components in the production system.
+
+6. Intelligent production components: Components getting more powerful in terms of performance allow for decentralized intelligence. Artificial Intelligence methods, e.g. MAS, could be supported by these components. Data analysis could be handled on an advanced level to help the AI and their self*-features. An example would be the self-adaption in case a surrounding component fails. As these smart devices watch their surroundings and the status of other devices they can react to changes based on status or disturbances in another part of the work-flow.
+
+7. Integrate Humans: Still with all those smart devices and innovative ways to enhance new performance peaks to satisfy customer needs, humans are a important part. With changing techniques and concepts human operators and maintainers need to adapt to those changes. HMI and mobile applications need to be highly usable and supportive. Education and Training activities need to take new ways to keep up with these upcoming technologies and enable humans to understand, operate and maintain them \cite{SpecPERFoRM}.
+\subsection{Architectural Elements}
+Based on the assumptions made by PERFoRM there are elements in the architecture which seem necessary.
+
+The integration of legacy systems and communication between distributed heterogeneous components make standard interfaces and technology adapters essential.
+Therefore standards for these interfaces and adapters need to be establish so that independent to specific manufacturers of devices and software components it is ensured that they fit into the architecture.
+
+\begin{figure}[ht]
+	\includegraphics[width=\columnwidth]{img/PERFoRM-Architecture.png}
+	\caption{The PERFoRM system architecture\cite{SpecPERFoRM}}
+\end{figure}
+
+Another important part of the architecture is an industrial middleware. To ensure seamless data representation, data transformation and approaches like MAS a smart middleware is needed. In terms of service-orientation these features are enriched with service registry and discovery. Depending on the chosen architecture design the middleware might be the central communication and organization hub for all other parts of the system.
+
+
 \section{Comparison} % fifth to sixth page
 \section{Conclusion} % sixth page
 The conclusion goes here.
