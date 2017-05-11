@@ -50,23 +50,23 @@ Driven by the fourth industrial revolution emerges a need for concepts, methods 
 
 \section{Introduction} % first page
 % no \IEEEPARstart
-The world wide trend for globalization pressures the manufacturing domain. Especially Europe is pressured by constantly rising US and Asian competitors. This leads to customers being able to order from foreign companies and products eventually being more customized, cheaper and with higher quality. This circumstance drives manufacturing companies to find solutions to meet those requirements \cite{HarmonizedSystems}. 
+The world wide trend for globalization pressures the manufacturing domain. Especially Europe is pressured by constantly rising US and Asian competitors. This leads to customers being able to order from foreign companies and products eventually being more customized, cheaper and with higher quality. This circumstance drives manufacturing companies to find solutions to keep up with these changes \cite{HarmonizedSystems}. 
 
-While striving for ways to reduce production costs and raise quality of the products, another factor to the company performance are disturbances like delays, shortages from suppliers or resources breakdowns. These disturbances can have a deep impact on the performance and might lead to losing customers. This world-market reshape raises the urge to develop new manufacturing paradigms, new manufacturing control systems and smarter manufacturing equipment with features such as modularity, reconfigurability and flexibility to enable a complete process integration. The underlying basis for this integration is production digitization, massive information exchange and processing. 
+While striving for ways to reduce production costs and raise quality of products, another factor to the company performance are disturbances like delays, shortages from suppliers or resource breakdowns. These disturbances can have a deep impact on the performance and might lead to losing customers. This world-market reshape raises the urge to develop new manufacturing paradigms, new manufacturing control systems and smarter manufacturing equipment with features such as modularity, reconfigurability and flexibility to enable a complete process integration. The underlying basis for this integration is production digitization, massive information exchange and processing. 
 
-The use of Internet of Things (IoT) allows to collect massive sensorial data, which can be processed by Big data techniques. This allows production resources to become smarter, pluggable and distributed. The design of production systems shifts from traditional monolithic hierarchical systems into a distributed and horizontal structure, where heterogeneous components are cooperating and collaborating with another. A common paradigm to reach such a structure is called Cyber-Physical-System (CPS), where the physical (real world) and logical part (cyber world) are merged \cite{SpecPERFoRM}.
+The use of Internet of Things (IoT) allows for collect to massive sensorial data, which can be processed by Big data techniques. This allows production resources to become smarter, pluggable and distributed. The design of production systems shifts from traditional monolithic hierarchical systems into a distributed and horizontal structure, where heterogeneous components are cooperating and collaborating with another. A common paradigm to reach such a structure is called Cyber-Physical-System (CPS), where the physical (real world) and logical part (cyber world) are merged \cite{SpecPERFoRM}.
 
-National and transnational programs emerged to support research on these scientific and technological areas. These programs to solving problems of the industrial revolution are called: "Industrie 4.0" in Germany, "Made in Sweden 2030" in Sweden, "La Nouvelle France Industrielle" in France, "Smart Industry" in Netherlands, "Industria Conectada 4.0" in Spain, "Innovate UK" in United Kingdom and "Fabbrica Intelligente" in Italy \cite{SpecPERFoRM}. 
+National and transnational programs emerged to support research on these scientific and technological areas. These programs strive to solve the problems of the industrial revolution are called: "Industrie 4.0" in Germany, "Made in Sweden 2030" in Sweden, "La Nouvelle France Industrielle" in France, "Smart Industry" in Netherlands, "Industria Conectada 4.0" in Spain, "Innovate UK" in United Kingdom and "Fabbrica Intelligente" in Italy \cite{SpecPERFoRM}. 
 
 The European commission, industry and research institutes are trying to solve these new problems and issues, but only few brought successful solutions into industrial applications. Many projects focus on solving specific problems but neglect other technological issues. Research projects are often using non-standardized interfaces and platforms, which aren't yet applied in industry. 
 
-Some projects showed that Multi-Agent Systems (MAS) provide a distributed intelligence to the systems components while Service-oriented Architecture (SoA) provide plugability and also vertical and horizontal system integration. For data processing and communication ontologies are needed to define a common data model.
+Some projects showed that Multi-Agent Systems (MAS) provide a distributed intelligence to the components of the system while Service-oriented Architecture (SoA) provide plugability and also vertical and horizontal system integration. Ontologies are needed to define a common data model for communication and data processing.
 
-The FP7 PRIME project developed an agent based architecture, which will be topic of \autoref{PRIME}, to allow semi-automatical reconfiguration through aggregating and compositing skills in combination with a Human Machine Interface Agent, that works as a gateway user interface providing different system users, system configurations and specifications. PRIME shows how reconfiguration by parametrization can be done by using MAS.
+The FP7 PRIME project, funded by the EU, developed an agent based architecture, which will be topic of \autoref{PRIME}, to allow semi-automatical reconfiguration through aggregating and compositing skills in combination with a Human Machine Interface Agent (HMIA). The HMIA works as a gateway user interface providing different system users, system configurations and specifications. PRIME shows how reconfiguration by parametrization can be done using MAS.
 
-The PERFoRM project, which will be introduced in \autoref{PERFoRM}, combines existing solutions of successful public and private research projects into one common platform to allow an industrial adoption \cite{HarmonizedSystems}. PERFoRM aims to develop an approach to integrate legacy systems through adapters, allow seamless production system reconfiguration through the plug-and-produce concept and human interactions, but also provides advanced tools like intelligent decision support, scheduling and simulation to support the system \cite{SpecPERFoRM}.
+The PERFoRM project, which will be introduced in \autoref{PERFoRM}, combines existing solutions of successful public and private research projects into one common platform to make an industrial adoption possible \cite{HarmonizedSystems}. PERFoRM aims to develop an approach to integrate legacy systems through adapters, allow seamless production system reconfiguration through the plug-and-produce concept as well as human interactions, but also to provide advanced tools like intelligent decision support, scheduling and simulation to aid the system \cite{SpecPERFoRM}.
 
-This report gives an overview of state of the art technologies addressing the issues of industrial revolution and compares the PRIME architecture with the PERFoRM architecture, which aim to provide solutions for these new cyber-physical-production-systems (CPPS).
+This report gives an overview of state of the art technologies addressing the issues of the industrial revolution 4.0 and compares the PRIME architecture with the PERFoRM architecture, which aim to provide solutions for these new cyber-physical-production-systems (CPPS).
 
 
 %\hfill rk
@@ -106,39 +106,42 @@ Different solutions were developed for the new agile-manufacturing generation us
 
 \section{PRIME} \label{PRIME}% third page
 \lipsum[1-10]
+
 \section{PERFoRM} \label{PERFoRM} % fourth page
 This section gives a brief introduction to PERFoRM, its motivation, assumptions and architectural elements.
+
 \subsection{Motivation}
 The PERFoRM project is funded by the European Unions Horizon 2020 research and innovation programme and investigates the requirements for new innovative production systems. PERFoRM does not try to develop a new architecture from scratch but instead tries to re-use the results of previous successful projects in this field \cite{SpecPERFoRM}. 
-\subsection{Assumptions}
-1. Integrate legacy systems: As most of the industry uses legacy systems the integration of these systems is an important part to consider. Standard interfaces for syntax and semantic define how to communicate with components of the system. Technology adapters connect existing components to these interfaces. Once these interfaces and adapters are commonly established heterogeneous components can be connected to the communication infrastructure, which can address other backbone level systems via Machine-to-Machine (M2M) and Enterprise-Service-Bus (ESB) technologies.
 
-2. Integrate advanced planning and simulation applications: New CPPS are based on smart components. To support smart and self*-features of those devices it is essential to allow simulation and planning. This allows them to be agile and adaptive to its surroundings. A way to enable this is using MAS and cloud technologies to propagate strategies and decision making.
+\subsection{Assumptions}
+1. Integration of legacy systems: As most of the industry uses legacy systems the integration of these systems is an important part to consider. Standard interfaces for syntax and semantic define how to communicate with components of the system. Technology adapters connect existing components to these interfaces. Once these interfaces and adapters are commonly established heterogeneous components can be connected to the communication infrastructure, which can address other backbone level systems via Machine-to-Machine (M2M) and Enterprise-Service-Bus (ESB) technologies.
+
+2. Integration of advanced planning and simulation applications: New CPPS are based on smart components. To support smart and self*-features of those devices it is essential to allow simulation and planning. This allows them to be agile and adaptive to its surroundings. A way to enable this is using MAS and cloud technologies to propagate strategies and decision making.
 
 3. Seamless data representation: Keeping in mind that devices are mostly heterogeneous different representations of data need to be processed. An standard representation of industrial data models and gateways for data transformation on machinery and backbone level are needed to accomplish this problem.
 
 4. Components and Configuration on the fly: Disturbances of the work-flow need to be recognized and handled. Distributed approaches, e.g. MAS or SoA, combined with registry and discovery mechanisms enable the architecture to support a plug-and-play approach for components. In case of disturbances, planned or not, e.g. maintenance or device failure, reconfiguration of running components might be necessary. Other projects, like PRIME, showed concepts to support reconfiguration and also self*-features in an productive environment.
 
-5. Distributed and heterogeneous components: In addition to the before mentioned standard interfaces and technology adapters, service-oriented design principles like SoA allow a more abstract view of distributed and heterogeneous components. The system can expose functionalities as services and aggregate and composite those services. Therefore the combination of services can create new services and also describe services used for self-organization of smart components in the production system.
+5. Distributed and heterogeneous components: In addition to the previously mentioned standard interfaces and technology adapters, service-oriented design principles like SoA allow a more abstract view on distributed and heterogeneous components. The system can expose functionalities as services as well as aggregate and composite those services. Therefore the combination of services can create new services and also describe services used for self-organization of smart components in the production system.
 
 6. Intelligent production components: Components getting more powerful in terms of performance allow for decentralized intelligence. Artificial Intelligence methods, e.g. MAS, could be supported by these components. Data analysis could be handled on an advanced level to help the AI and their self*-features. An example would be the self-adaption in case a surrounding component fails. As these smart devices watch their surroundings and the status of other devices they can react to changes based on status or disturbances in another part of the work-flow.
 
-7. Integrate Humans: Still with all those smart devices and innovative ways to enhance new performance peaks to satisfy customer needs, humans are a important part. With changing techniques and concepts human operators and maintainers need to adapt to those changes. HMI and mobile applications need to be highly usable and supportive. Education and Training activities need to take new ways to keep up with these upcoming technologies and enable humans to understand, operate and maintain them \cite{SpecPERFoRM}.
+7. Integrate Humans: Rather with all those smart devices and innovative ways to enhance new performance peaks to satisfy customer needs, humans still play an important role in operating and maintaining these systems. With changing techniques and concepts human operators and maintainers need to adapt to those changes. HMI and mobile applications need to be highly usable and supportive. Education and Training activities need to take new ways to keep up with these upcoming technologies and enable humans to understand, operate and maintain them \cite{SpecPERFoRM}.
+
 \subsection{Architectural Elements}
-Based on the assumptions made by PERFoRM there are elements in the architecture which seem necessary.
+Based on the assumptions made by PERFoRM there are elements in the architecture which are deemed necessary.
 
 The integration of legacy systems and communication between distributed heterogeneous components make standard interfaces and technology adapters essential.
-Therefore standards for these interfaces and adapters need to be establish so that independent to specific manufacturers of devices and software components it is ensured that they fit into the architecture.
+Therefore standards for these interfaces and adapters need to be establish so that regardless of the manufacturers of devices and software components it is ensured that they fit into the architecture.
 
 \begin{figure}[ht]
 	\includegraphics[width=\columnwidth]{img/PERFoRM-Architecture.png}
 	\caption{The PERFoRM system architecture\cite{SpecPERFoRM}}
 \end{figure}
 
-Another important part of the architecture is an industrial middleware. To ensure seamless data representation, data transformation and approaches like MAS a smart middleware is needed. In terms of service-orientation these features are enriched with service registry and discovery. Depending on the chosen architecture design the middleware might be the central communication and organization hub for all other parts of the system.
+Another important part of the architecture is an industrial middleware. To ensure seamless data representation, data transformation and approaches like MAS a smart middleware is necessary. In terms of service-orientation these features are enriched with service registry and discovery. Depending on the chosen architecture design the middleware might be the central communication and organization hub for all other parts of the system.
 
-
-\section{Comparison} % fifth to sixth page
+\section{Comparison} \label{comparison} % fifth to sixth page
 \section{Conclusion} % sixth page
 The conclusion goes here.
 
