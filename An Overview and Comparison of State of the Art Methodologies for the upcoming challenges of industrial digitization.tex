@@ -45,14 +45,14 @@ Email: rene.kremer@student.uni-luebeck.de}}
 \maketitle
 
 \begin{abstract}
-Driven by the fourth industrial revolution emerges a need for concepts, methods and technologies which will take on the new challenge of digitalization. In future systems digitalization is an important principle with the goal of processing and collecting large amounts of data as well as having smart, pluggable, cooperating and collaborating components. A special design process has to be addressed to allow building evolvable and complex systems for various requirements and use cases. This paper focuses on architectures like PERFoRM and the PRIME Framework for Multi Agent Systems (MAS) by comparing them, as both are trying to support the new upcoming system designs.
+Driven by the fourth industrial revolution emerges a need for concepts, methods and technologies which will take on the new challenge of digitalization. In future systems digitalization is an important principle with the goal of processing and collecting large amounts of data as well as having smart, pluggable, cooperating and collaborating components. A special design process has to be addressed to allow building evolvable and complex systems for various requirements and use cases \cite{Peres2017}. This paper focuses on architectures like PERFoRM and the PRIME Framework for Multi Agent Systems (MAS) by comparing them, as both are trying to support the new upcoming system designs.
 \end{abstract}
 
 \section{Introduction} % first page
 % no \IEEEPARstart
 The world wide trend for globalization pressures the manufacturing domain. Especially Europe is pressured by constantly rising US and Asian competitors. This leads to customers being able to order from foreign companies and products eventually being more customized, cheaper and with higher quality. This circumstance drives manufacturing companies to find solutions to keep up with these changes \cite{HarmonizedSystems}. 
 
-While striving for ways to reduce production costs and raise quality of products, another factor to the company performance are disturbances like delays, shortages from suppliers or resource breakdowns. These disturbances can have a deep impact on the performance and might lead to losing customers. This world-market reshape raises the urge to develop new manufacturing paradigms, new manufacturing control systems and smarter manufacturing equipment with features such as modularity, reconfigurability and flexibility to enable a complete process integration. The underlying basis for this integration is production digitization, massive information exchange and processing. 
+While striving for ways to reduce production costs and raise quality of products, another factor to the company performance are disturbances like delays, shortages from suppliers or resource breakdowns. These disturbances can have a deep impact on the performance and might lead to losing customers. This world-market reshape raises the urge to develop new manufacturing paradigms, new manufacturing control systems and smarter manufacturing equipment with features such as modularity, reconfigurability and flexibility \cite{SCHEIFELE2014398} to enable a complete process integration. The underlying basis for this integration is production digitization, massive information exchange and processing. 
 
 The use of Internet of Things (IoT) allows for collect to massive sensorial data, which can be processed by Big data techniques. This allows production resources to become smarter, pluggable and distributed. The design of production systems shifts from traditional monolithic hierarchical systems into a distributed and horizontal structure, where heterogeneous components are cooperating and collaborating with another. A common paradigm to reach such a structure is called Cyber-Physical-System (CPS), where the physical (real world) and logical part (cyber world) are merged \cite{SpecPERFoRM}.
 
@@ -60,11 +60,11 @@ National and transnational programs emerged to support research on these scienti
 
 The European commission, industry and research institutes are trying to solve these new problems and issues, but only few brought successful solutions into industrial applications. Many projects focus on solving specific problems but neglect other technological issues. Research projects are often using non-standardized interfaces and platforms, which aren't yet applied in industry. 
 
-Some projects showed that Multi-Agent Systems (MAS) provide a distributed intelligence to the components of the system while Service-oriented Architecture (SoA) provide plugability and also vertical and horizontal system integration. Ontologies are needed to define a common data model for communication and data processing.
+Some projects showed that Multi-Agent Systems (MAS) provide a distributed intelligence to the components of the system while Service-oriented Architecture (SoA) provide plugability and also vertical and horizontal system integration \cite{Colombo2009}. Ontologies are needed to define a common data model for communication and data processing \cite{Peres2017}.
 
-The FP7 PRIME project, funded by the EU, developed an agent based architecture, which will be topic of \autoref{PRIME}, to allow semi-automatical reconfiguration through aggregating and compositing skills in combination with a Human Machine Interface Agent (HMIA). The HMIA works as a gateway user interface providing different system users, system configurations and specifications. PRIME shows how reconfiguration by parametrization can be done using MAS.
+The FP7 PRIME project, funded by the EU, developed an agent based architecture, which will be topic of \autoref{sec:PRIME}, to allow semi-automatical reconfiguration through aggregating and compositing skills in combination with a Human Machine Interface Agent (HMIA). The HMIA works as a gateway user interface providing different system users, system configurations and specifications. PRIME shows how reconfiguration by parametrization can be done using MAS.
 
-The PERFoRM project, which will be introduced in \autoref{PERFoRM}, combines existing solutions of successful public and private research projects into one common platform to make an industrial adoption possible \cite{HarmonizedSystems}. PERFoRM aims to develop an approach to integrate legacy systems through adapters, allow seamless production system reconfiguration through the plug-and-produce concept as well as human interactions, but also to provide advanced tools like intelligent decision support, scheduling and simulation to aid the system \cite{SpecPERFoRM}.
+The PERFoRM project, which will be introduced in \autoref{sec:PERFoRM}, combines existing solutions of successful public and private research projects into one common platform to make an industrial adoption possible \cite{HarmonizedSystems}. PERFoRM aims to develop an approach to integrate legacy systems through adapters, allow seamless production system reconfiguration through the plug-and-produce concept as well as human interactions, but also to provide advanced tools like intelligent decision support, scheduling and simulation to aid the system \cite{SpecPERFoRM}.
 
 This report gives an overview of state of the art technologies addressing the issues of the industrial revolution 4.0 and compares the PRIME architecture with the PERFoRM architecture, which aim to provide solutions for these new cyber-physical-production-systems (CPPS).
 
@@ -81,13 +81,13 @@ This report gives an overview of state of the art technologies addressing the is
 In this section different approaches will be introduced, which are the results of successful projects. 
 
 \subsection{Multi-Agent Systems}
-Multi-Agent Systems (MAS) are an approach to develop an agent based decentralized control architecture for production systems. This allows an easy support for cyber-physical concepts and the creation of smart components as agents in the system. This means the production system is a collection of agents, where agents interact with each other. Every agent got an own action scope and is aware of the status of its surrounding agents. Therefore it is possible for them to self-organize in case of changes and disturbances, which means they reconfigure and operate accordingly to its environment \cite{HarmonizedSystems}.
+Multi-Agent Systems (MAS) are an approach to develop an agent based decentralized control architecture for production systems. This allows an easy support for cyber-physical concepts and the creation of smart components as agents in the system. This means the production system is a collection of agents, where agents interact with each other. Every agent got an own action scope and is aware of the status of its surrounding agents. Therefore it is possible for them to self-organize in case of changes and disturbances, which means they reconfigure and operate accordingly to its environment \cite{HarmonizedSystems,Peres2017}.
 
 \subsection{Plug and Produce Technology}
 "Plug and Produce" technologies try to build modules, which can integrate intelligent components. This is accomplished by using standard interfaces and adapters for existing interfaces. Following this approach it is possible to use plug-and-produce devices, which could have built-in intelligence and profit of sensors and actors. These plug-and-produce devices might be used to integrate new capabilities to an existing production systems or a new one \cite{HarmonizedSystems}. Self*-Features possess an important role in these upcoming architectures \cite{SpecPERFoRM} and the "Plug and Produce" technology should focus on self-adaptive and reconfigurable components to support a flexible solution. MAS was used in some projects to accomplish plug-and-produce with self-adaption. PRIME, which was developed in scope of the PRIME project and funded by the European FP7 program, used a MAS in this context to support semi-automatical configuration through a human-machine-interface (HMI). Reconfiguration in the PRIME architecture is handled through different agent roles and enables the integration of legacy systems \cite{HarmonizedSystems}.
 
 \subsection{Service-oriented Architecture}
-Other projects researched the possible use of Service-oriented Architectures (SoA), which are mostly commonly used in the context of Web services. The principle of SoA could be used at a device and application level to enable and integrate distributed smart embedded systems. These components are handled as services, which are flexible parts in this kind of architecture. Therefore it is important to create an open and flexible environment that is extended by the scope of the collaborative SoA \cite{HarmonizedSystems}. This means that the industrial middleware needs to be able to discover and register new services and also expose functionalities of the heterogeneous components as services \cite{SpecPERFoRM}. Data transformation for these different services also needs to be handled by the middleware, which adds additional intelligence to this component. Once the groundwork is done, integration of new services and communication between existing ones can be simplified on different levels of the enterprise architecture. As services are interoperable and reusable this approach allows to develop self-learning production systems by using data mining and context awareness \cite{HarmonizedSystems}.
+Other projects researched the possible use of Service-oriented Architectures (SoA), which are mostly commonly used in the context of Web services. The principle of SoA could be used at a device and application level to enable and integrate distributed smart embedded systems \cite{Colombo2009}. These components are handled as services, which are flexible parts in this kind of architecture. Therefore it is important to create an open and flexible environment that is extended by the scope of the collaborative SoA \cite{HarmonizedSystems}. This means that the industrial middleware needs to be able to discover and register new services and also expose functionalities of the heterogeneous components as services \cite{SpecPERFoRM}. Data transformation for these different services also needs to be handled by the middleware, which adds additional intelligence to this component. Once the groundwork is done, integration of new services and communication between existing ones can be simplified on different levels of the enterprise architecture. As services are interoperable and reusable this approach allows to develop self-learning production systems by using data mining and context awareness \cite{HarmonizedSystems, DENKENA2014406, Peres2017}.
 
 
 \subsection{Cloud Technology}
@@ -100,15 +100,43 @@ Different solutions were developed for the new agile-manufacturing generation us
 
 2. Support Businesses: It is not enough to develop new concepts and technologies if it is not benefiting the goal of businesses. Requirements and performance indicators needs to be analyzed to support those real business requirements and therefore improve the overall performance of the business.
 
-3. Human Factor:  The human factor is a flexibility driver and therefore needs special attention. Not only highly usable HMIs need to be developed. The impact of these upcoming concepts and architectures needs to be analyzed and evaluated. Necessary skills for operators and maintainers possibly will change. Activities on education and training become important parts so that human workers can keep up with new state of the art procedures and technologies.
+3. Human Factor:  The human factor is a flexibility driver and therefore needs special attention \cite{Colombo2009}. Not only highly usable HMIs need to be developed. The impact of these upcoming concepts and architectures needs to be analyzed and evaluated. Necessary skills for operators and maintainers possibly will change. Activities on education and training become important parts so that human workers can keep up with new state of the art procedures and technologies.
 
 4. Maturity and Migration: These new approaches, which are currently state of the art, are not fully tested in industry. As the migration of new technologies will have a big impact on the production and expenses of a company a good and tested migration strategy needs to be developed. Special attention lies on the smooth integration of legacy systems.
 
-\section{PRIME} \label{PRIME}% third page
-\lipsum[1-10]
+\section{PRIME} \label{sec:PRIME}% third page
 
-\section{PERFoRM} \label{PERFoRM} % fourth page
-This section gives a brief introduction to PERFoRM, its motivation, assumptions and architectural elements.
+This section briefly introduces the PRIME architecture, which was a result of the EU funded FP7 Program, based on the agents this architecture uses in its MAS.
+\subsection{Motivation}
+PRIME provides an architecture using agent technology, which might lead to time processing issues in terms of regarding communication and process control. However, PRIME uses a hybrid structure integrating a MAS with traditional automation equipment (programmable logic controllers). In this context the control system of the production system should operate independently of the MAS and offer more flexibility to the overall system. This is achieved by focusing on reconfiguration of the control system, which is handled by the MAS \cite{Hybrid}.
+
+\subsection{Architecture}
+The architecture uses a data base to store templates of the products and also composition rules as well as system skills. System skills are software abstractions of physical modules, which are abstracted as Component Agents (CA), processes and include information as configuration and parameters. Skills can be aggregated as a combination of different skills of CAs \cite{Hybrid}.
+
+\begin{figure}[ht]
+	\includegraphics[width=\columnwidth]{img/PRIME-Architecture.png}
+	\caption{PRIME Architecture \cite{Hybrid}}
+	\label{fig:prime-architecture}
+\end{figure}
+\noindent
+As previously mentioned PRIME is agent based using 7 different types of agents:
+
+1. Human Machine Interface Agent (HMIA): This agent works as a (gateway) user interface to allow different system users to have a view on the systems state and interact with it as seen in \autoref{fig:prime-architecture} \cite{Hybrid}.
+
+2. Prime System Agent (PSA): System creation starts with system users interacting with the PSA (mediated by the HMIA).The PSA also is connected to a data base holding all information on product templates and system skills. With this knowledge it controls and connects to the production management agents (PMA). On a change of skill sets the PSA is the last informed instance and stores these updates in the knowledge data base. After storing the new composition rules for the skill sets, it down-streams them to all connected PMAs to update their skills. If a new Product Agent (PA) is launched, and therefore another product introduced to the system, the PSA verifies if the requirements for the new product can be met with the existing skill sets. If that is the case, the PMAs for theses skill sets will be re-parametrized and in the end forward the new parameters to the CAs \cite{Hybrid}.
+
+3. Deployment Agent (DA): The DA is responsible to launch all agents. Therefore it is assumed that all controllers, where the infrastructure is to be deployed, have a running DA. Using local validation rules the DA asserts if an agent of a specific class can be launched in the controller \cite{Hybrid}. 
+
+4. Production Management Agent (PMA): After setting up and creating the system, PMAs will be started. A PMA abstracts a subsystem and therefore is an aggregation of subsystems and/or system components as a PMA can include other PMAs and CAs. A PMA is associated to one Skill Management Agent (SMA) and responsible to launch it. Every time the set of agents changes, the PMA needs to verify if agents are leaving or joining the sub system and forward that information up to its parent PMA or even the PSA (in case of a top level PMA). For joining agents the PMA has to validate if they can operate in the new context and also if they change the number and type of skills the PMAs subsystem can provide. In case the PMA gets updates from its parent PMA or PSA it forwards these composition rule updates to its SMA and subordinate PMAs. This change of rules and skills will only be processed if the PMA receives an inform message (INF) that confirms the successful update of higher-level agents. Therefore updating is a cascading process and atomic, which means that the entire system is updated or the update does not become in effect. This mechanism keeps the integrity and consistency of the reconfiguration information for the system \cite{Hybrid}.
+
+5. Skill Management Agent (SMA): As previously mentioned a PMA has a SMA holding the topological information about the subsystem and its skill composition/aggregation rules. As they are a virtual representation these skills are reconfigurable. In case of changes, SMAs work parallel, save new rules and verify changes of existing skills while the PMA updates the topological structure. This asynchronously behavior is important for bigger systems, which have many skill composition rules that may take longer to compute \cite{Hybrid}.
+
+6. Component Agent (CA): The CA represents system components, i.e. hardware, physical devices etc., and includes interaction logic required for reconfiguration of this physical component. CAs contain the previously mentioned skills \cite{Hybrid}.
+
+7. Product Agent (PA): Whenever a new product is introduced to the system a new instance of a PA is created. PAs hold all information that describe the new product e.g. process plan and associated skills. The specification of the product will be send to the PSA as well as the process requirements, which verifies if the system can meet those requirements \cite{Hybrid}. 
+
+\section{PERFoRM} \label{sec:PERFoRM} % fourth page
+This section gives a brief introduction to another architecture called PERFoRM, its motivation, assumptions and architectural elements.
 
 \subsection{Motivation}
 The PERFoRM project is funded by the European Unions Horizon 2020 research and innovation programme and investigates the requirements for new innovative production systems. PERFoRM does not try to develop a new architecture from scratch but instead tries to re-use the results of previous successful projects in this field \cite{SpecPERFoRM}. 
@@ -137,11 +165,12 @@ Therefore standards for these interfaces and adapters need to be establish so th
 \begin{figure}[ht]
 	\includegraphics[width=\columnwidth]{img/PERFoRM-Architecture.png}
 	\caption{The PERFoRM system architecture\cite{SpecPERFoRM}}
+	\label{fig:PERFoRM-Architecture}
 \end{figure}
 
-Another important part of the architecture is an industrial middleware. To ensure seamless data representation, data transformation and approaches like MAS a smart middleware is necessary. In terms of service-orientation these features are enriched with service registry and discovery. Depending on the chosen architecture design the middleware might be the central communication and organization hub for all other parts of the system.
+As seen in \autoref{fig:PERFoRM-Architecture} another important part of the architecture is the industrial middleware. To ensure seamless data representation, data transformation and approaches like MAS a smart middleware is necessary. In terms of service-orientation these features are enriched with service registry and discovery. Depending on the chosen architecture design the middleware might be the central communication and organization hub for all other parts of the system.
 
-\section{Comparison} \label{comparison} % fifth to sixth page
+\section{Comparison} \label{sec:comparison} % fifth to sixth page
 \section{Conclusion} % sixth page
 The conclusion goes here.
 
@@ -159,101 +188,30 @@ The authors would like to thank...
 \begin{thebibliography}{1}
 
 \bibitem{HarmonizedSystems}
-A. Calà and M. Foehr and D. Rohrmus and N. Weinert and O. Meyer and M. Taisch and F. Boschi and P. M. Fantini and P. Perlo and P. Petrali and J. Vallhagen, \emph{Towards Industrial Exploitation of Innovative and Harmonized Production Systems}, IEEE, 2016
+A. Calà, M. Foehr, D. Rohrmus, N. Weinert, O. Meyer, M. Taisch, F. Boschi, P. M. Fantini, P. Perlo, P. Petrali and J. Vallhagen, \emph{Towards Industrial Exploitation of Innovative and Harmonized Production Systems}, IEEE, 2016
+
+\bibitem{SCHEIFELE2014398}
+Stefan Scheifele, Jens Friedrich, Armin Lechler and Alexander Verl, \emph{Flexible, Self-configuring Control System for a Modular Production System},
+in \emph{Procedia Technology}, Vol. 15, pages 398 - 405, 2014
 
 \bibitem{SpecPERFoRM}
-Paulo Leitão and José Barbosa and Arnaldo Pereira and José Barata  and Armando W. Colombo, \emph{Specification of the PERFoRM Architecture for the Seamless Production System Reconfiguration}, IEEE, 2016\bibitem{Hybrid}
+Paulo Leitão, José Barbosa, Arnaldo Pereira, José Barata  and Armando W. Colombo, \emph{Specification of the PERFoRM Architecture for the Seamless Production System Reconfiguration}, IEEE, 2016
 
-Tiago Santos and Luis Ribeiro and Andre Dionisio Rocha and Jose Barata, \emph{A system reconfiguration architecture for hybrid
-automation systems based in agents and
-programmable logic controllers}, IEEE, 2016
+\bibitem{Colombo2009}
+Armando Walter Colombo and Stamatis Karnouskos,
+\emph{Towards the Factory of the Future: A Service-oriented Cross-layer Infrastructure}, in \emph{ICT Shaping the World: A Scientific View}, pages 65 - 81, 2009
+
+\bibitem{Peres2017}
+Ricardo Silva Peres, Andre Dionisio Rocha, André Coelho and Jose Barata, \emph{A Highly Flexible, Distributed Data Analysis Framework for Industry 4.0 Manufacturing Systems}, in \emph{Service Orientation in Holonic and Multi-Agent Manufacturing}, pages 373 - 381, 2017
+
+\bibitem{DENKENA2014406}
+Berend Denkena, Justin Schmidt and Max Krüger,
+\emph{Data Mining Approach for Knowledge-based Process Planning}, in \emph{Procedia Technology}, Vol. 15, pages 406 - 415, 2014
+
+\bibitem{Hybrid}
+Tiago Santos, Luis Ribeiro, Andre Dionisio Rocha and Jose Barata, \emph{A system reconfiguration architecture for hybrid automation systems based in agents and programmable logic controllers}, IEEE, 2016
 
 \end{thebibliography}
 
 % that's all folks
 \end{document}
-
-% An example of a floating figure using the graphicx package.
-% Note that \label must occur AFTER (or within) \caption.
-% For figures, \caption should occur after the \includegraphics.
-% Note that IEEEtran v1.7 and later has special internal code that
-% is designed to preserve the operation of \label within \caption
-% even when the captionsoff option is in effect. However, because
-% of issues like this, it may be the safest practice to put all your
-% \label just after \caption rather than within \caption{}.
-%
-% Reminder: the "draftcls" or "draftclsnofoot", not "draft", class
-% option should be used if it is desired that the figures are to be
-% displayed while in draft mode.
-%
-%\begin{figure}[!t]
-%\centering
-%\includegraphics[width=2.5in]{myfigure}
-% where an .eps filename suffix will be assumed under latex, 
-% and a .pdf suffix will be assumed for pdflatex; or what has been declared
-% via \DeclareGraphicsExtensions.
-%\caption{Simulation results for the network.}
-%\label{fig_sim}
-%\end{figure}
-
-% Note that the IEEE typically puts floats only at the top, even when this
-% results in a large percentage of a column being occupied by floats.
-
-
-% An example of a double column floating figure using two subfigures.
-% (The subfig.sty package must be loaded for this to work.)
-% The subfigure \label commands are set within each subfloat command,
-% and the \label for the overall figure must come after \caption.
-% \hfil is used as a separator to get equal spacing.
-% Watch out that the combined width of all the subfigures on a 
-% line do not exceed the text width or a line break will occur.
-%
-%\begin{figure*}[!t]
-%\centering
-%\subfloat[Case I]{\includegraphics[width=2.5in]{box}%
-%\label{fig_first_case}}
-%\hfil
-%\subfloat[Case II]{\includegraphics[width=2.5in]{box}%
-%\label{fig_second_case}}
-%\caption{Simulation results for the network.}
-%\label{fig_sim}
-%\end{figure*}
-%
-% Note that often IEEE papers with subfigures do not employ subfigure
-% captions (using the optional argument to \subfloat[]), but instead will
-% reference/describe all of them (a), (b), etc., within the main caption.
-% Be aware that for subfig.sty to generate the (a), (b), etc., subfigure
-% labels, the optional argument to \subfloat must be present. If a
-% subcaption is not desired, just leave its contents blank,
-% e.g., \subfloat[].
-
-
-% An example of a floating table. Note that, for IEEE style tables, the
-% \caption command should come BEFORE the table and, given that table
-% captions serve much like titles, are usually capitalized except for words
-% such as a, an, and, as, at, but, by, for, in, nor, of, on, or, the, to
-% and up, which are usually not capitalized unless they are the first or
-% last word of the caption. Table text will default to \footnotesize as
-% the IEEE normally uses this smaller font for tables.
-% The \label must come after \caption as always.
-%
-%\begin{table}[!t]
-%% increase table row spacing, adjust to taste
-%\renewcommand{\arraystretch}{1.3}
-% if using array.sty, it might be a good idea to tweak the value of
-% \extrarowheight as needed to properly center the text within the cells
-%\caption{An Example of a Table}
-%\label{table_example}
-%\centering
-%% Some packages, such as MDW tools, offer better commands for making tables
-%% than the plain LaTeX2e tabular which is used here.
-%\begin{tabular}{|c||c|}
-%\hline
-%One & Two\\
-%\hline
-%Three & Four\\
-%\hline
-%\end{tabular}
-%\end{table}
-
-
