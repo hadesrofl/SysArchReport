@@ -5,8 +5,8 @@
 * PRIME shows a good solution in terms of reconfiguration time
  * PSA as bottleneck has yet to be tested
  * PSA is single point of failure
- <p>=> Backup plan needed!
- First ideas: Heartbeat algorithm, reboot of dead agents, remapping of children of dead PMAs</p>
+ <p>=> Backup plan needed!</p>
+ <p>First ideas: Heartbeat algorithm, reboot of dead agents, remapping of children of dead PMAs</p>
 
 +++
 #### Seamless reconfiguration (2)
