@@ -68,6 +68,11 @@ New Concepts, Methods and Technologies to take on the challenge of the new indus
       based in agents and programmable logic controllers</em>, IEEE, 2016
     </font>
   </li>
+</ul>
+
+---
+### Literature (3)
+<ul>
   <li>
     <font size="6">
       Andre Rocha, Giovanni Di Orio, José Barata, Nikolas Antzoulatos,
