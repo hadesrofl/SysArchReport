@@ -14,12 +14,12 @@
 
 +++
 #### Architecture
-<img src="assets/PRIME/PRIME-Architecture.png" width="70%" height="55%" alt="PRIME Architecture"/>
+<img src="assets/PRIME/PRIME-Architecture.png" width="60%" height="40%" alt="PRIME Architecture"/>
 <font size="4"><strong>Source:</strong> <em>A system reconfiguration architecture for hybrid automation systems
 based in agents and programmable logic controllers</em></font>
 
 +++
 #### Production Management Agent Tree
-<img src="assets/PRIME/Production-Management-Agent-Tree.png" width="70%" height="55%" alt="Production Management Agent Tree"/>
+<img src="assets/PRIME/Production-Management-Agent-Tree.png" width="80%" height="65%" alt="Production Management Agent Tree"/>
 <font size="4"><strong>Source:</strong> <em>A system reconfiguration architecture for hybrid automation systems
 based in agents and programmable logic controllers</em></font>

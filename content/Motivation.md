@@ -5,7 +5,7 @@
 +++
 #### Motivation (2)
 * Companies need to face these changes with new manufacturing paradigms and business models
-* For production digitalization and complete process integration there is a need for concepts, techniques and technologies to support it
+* For production digitization and complete process integration, there is a need for concepts, techniques and technologies that will support it
 
 +++
 #### Digitalization leads to...
@@ -15,14 +15,15 @@
 
 +++
 #### Emerging Problems
-* Currently:
+* Manufacturers systems consist of:
  * Mostly centralized legacy systems and control mechanisms
  * Heterogenous components
 
 +++
 #### Approach for the Future
 * Distributed and agile systems
-* System components functionality decoupled as services => service-based architectures like the Service-oriented Architecture (SoA)
+* System components functionality decoupled as services
+<p>=> service-based architectures like the Service-oriented Architecture (SoA)</p>
 * Seamless vertical and horizontal system integration
 
 +++
