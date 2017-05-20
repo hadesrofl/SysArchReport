@@ -14,7 +14,7 @@
 
 +++
 #### Architecture
-<img src="assets/PRIME/PRIME-Architecture.png" width="60%" height="40%" alt="PRIME Architecture"/>
+<img src="assets/PRIME/PRIME-Architecture.png" width="60%" height="50%" alt="PRIME Architecture"/>
 <font size="4"><strong>Source:</strong> <em>A system reconfiguration architecture for hybrid automation systems
 based in agents and programmable logic controllers</em></font>
 

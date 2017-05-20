@@ -9,9 +9,13 @@
 * Architecture (currently researched and specified) to support the production digitalization by providing:
  * service-orientation to expose system functionalities as services
  * a middleware as a common platform for information exchange
+
++++
+#### What is PERFoRM (3)
+* Further support by providing: 
  * a common language for standard interfaces
  * technology adapters to integrate legacy systems
- * a proper Human-Machine-Interface (HMI) to allow the human to interact with the system and drive its flexibility  
+ * a Human-Machine-Interface (HMI) to allow the human to interact with the system and drive its flexibility  
 
 +++
 #### PERFoRM Architecture - Overview

@@ -1,5 +1,4 @@
-### An Overview and Comparison of Designs of Architectures for Seamless System Reconfiguration
-New Concepts, Methods and Technologies to take on the challenge of the new industrial revolution
+### An Overview and Comparison of State of the Art Methodologies for the upcoming challenges of industrial digitization
 
 ---?include=content/Motivation.md
 
@@ -28,6 +27,11 @@ New Concepts, Methods and Technologies to take on the challenge of the new indus
       tems</em>, IEEE, 2016
     </font>
   </li>
+</ul>
+
++++
+### Literature (2)
+<ul>
   <li>
     <font size="6">
       Stefan Scheifele, Jens Friedrich, Armin Lechler and Alexander Verl,
@@ -35,11 +39,6 @@ New Concepts, Methods and Technologies to take on the challenge of the new indus
       System</em>, in Procedia Technology, Vol. 15, pages 398 - 405, 2014
     </font>
   </li>
-</ul>
-
-+++
-### Literature (2)
-<ul>
   <li>
     <font size="6">
       Paulo Leitão, José Barbosa, Arnaldo Pereira, José Barata and Armando
@@ -54,6 +53,11 @@ New Concepts, Methods and Technologies to take on the challenge of the new indus
       in ICT Shaping the World: A Scientific View, pages 65 - 81, 2009
     </font>
   </li>
+</ul>
+
++++
+### Literature (3)
+<ul>
   <li>
     <font size="6">
       Berend Denkena, Justin Schmidt and Max Krüger, <em>Data Mining Ap-
@@ -61,11 +65,6 @@ New Concepts, Methods and Technologies to take on the challenge of the new indus
       ogy, Vol. 15, pages 406 - 415, 2014
     </font>
   </li>
-</ul>
-
-+++
-### Literature (3)
-<ul>
   <li>
     <font size="6">
       Tiago Santos, Luis Ribeiro, Andre Dionisio Rocha and José Barata,
