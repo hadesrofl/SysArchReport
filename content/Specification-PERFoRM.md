@@ -8,11 +8,13 @@
 #### What is PERFoRM? (2)
 * Project of the EU Horizon 2020 research and innovation programme
 * Architecture (currently researched and specified) to support the production digitalization by providing:
- * a distributed control system for smart components (CPS)
- * seamless system reconfiguration
- * ways to allow integrated planning and simulation
+ * service-orientation to expose system functionalities as services
+ * a middleware as a common platform for information exchange
+ * a common language for standard interfaces
+ * technology adapters to integrate legacy systems
+ * a proper Human-Machine-Interface (HMI) to allow the human to interact with the system and drive its flexibility  
 
-+++
+<!-- +++
 #### What is PERFoRM? (3)
 * ... support the production digitalization by providing:
  * service-orientation to expose system functionalities as services
@@ -54,7 +56,7 @@ for the Seamless Production System Reconfiguration</em></font>
 
  * Middleware
  * Standard Interface
- * Technology Adapter
+ * Technology Adapter -->
 
 +++
 #### PERFoRM Architecture - Overview
