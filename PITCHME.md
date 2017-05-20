@@ -37,7 +37,7 @@ New Concepts, Methods and Technologies to take on the challenge of the new indus
   </li>
 </ul>
 
----
++++
 ### Literature (2)
 <ul>
   <li>
@@ -61,6 +61,11 @@ New Concepts, Methods and Technologies to take on the challenge of the new indus
       ogy, Vol. 15, pages 406 - 415, 2014
     </font>
   </li>
+</ul>
+
++++
+### Literature (3)
+<ul>
   <li>
     <font size="6">
       Tiago Santos, Luis Ribeiro, Andre Dionisio Rocha and José Barata,
@@ -68,11 +73,6 @@ New Concepts, Methods and Technologies to take on the challenge of the new indus
       based in agents and programmable logic controllers</em>, IEEE, 2016
     </font>
   </li>
-</ul>
-
----
-### Literature (3)
-<ul>
   <li>
     <font size="6">
       Andre Rocha, Giovanni Di Orio, José Barata, Nikolas Antzoulatos,
