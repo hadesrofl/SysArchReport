@@ -20,7 +20,14 @@
   <li>Approach for the future:</li>
   <ul>
     <li>Distributed and agile systems</li>
-    <li>System components functionality decoupled as services => service-based architectures like the Service Oriented Architecture (SOA)</li>
+    <li>System components functionality decoupled as services => service-based architectures like the Service Oriented Architecture (SoA)</li>
     <li>Seamless vertical and horizontal system integration</li>
   </ul>
 </ul>
+
++++
+#### State of the Art Methodologies
+* Multi-Agent Systems (MAS)
+* Plug and Produce Technology
+* Service-oriented Architecture (SoA)
+* Cloud Technology
