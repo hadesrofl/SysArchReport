@@ -12,7 +12,7 @@
 
 +++
 #### What is PERFoRM (3)
-* Further support by providing: 
+* Further support by providing:
  * a common language for standard interfaces
  * technology adapters to integrate legacy systems
  * a Human-Machine-Interface (HMI) to allow the human to interact with the system and drive its flexibility  
@@ -22,26 +22,3 @@
 <img src="assets/Specification-PERFoRM/PERFoRM-Architecture.png" width="70%" height="55%" alt="PERFoRM Architecture"/>
 <font size="4"><strong>Source:</strong> <em>Specification of the PERFoRM Architecture
 for the Seamless Production System Reconfiguration</em></font>
-
-+++
-#### PERFoRM Architecture - Middleware
-* Gateway between back-bone and machinery levels
-* Service registration and discovery
-* data transformation
-* routing of message exchange
-* prioritization of messages delivery
-* and some more
-
-+++
-#### PERFoRM Architecture - Standard Interface
-* allows to interconnect heterogenous HW devices and SW applications
-* enhances seamless interoperability and plugability
-* describes a contract implementation of each service (i.e. name, input and output parameters)
-* definition of the data model
-
-+++
-#### PERFoRM Architecture - Technology Adapter
-* exposes legacy systems' data and functionalities according to the PERFoRM standard interfaces
-* converts information about the data format of the legacy systems to the PERFoRM data model
-* dependant on the technology for the middleware
-* heavily involves the HW and SW development
