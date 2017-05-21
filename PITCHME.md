@@ -1,4 +1,4 @@
-### An Overview and Comparison of State of the Art Methodologies for the upcoming challenges of industrial digitization
+### An Overview and Comparison of PRIMEs and PERFoRMs approach to take up the challenge of industrial digitization
 
 ---?include=content/Motivation.md
 
