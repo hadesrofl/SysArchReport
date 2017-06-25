@@ -1,4 +1,4 @@
-\documentclass[12pt]{beamer}
+\documentclass[12pt, xcolor=dvipsnames]{beamer}
 %\usetheme{CambridgeUS}
 \usetheme{Goettingen}
 %\usecolortheme{dolphin}
@@ -29,6 +29,19 @@
 		\rlap{}\hfill\hfill\llap{\large \insertframenumber}%
 	\end{beamercolorbox}%
 }
+\setbeamercolor{sectioncolor}{fg=RoyalBlue, bg=white}
+
+\AtBeginSection[]{
+	\begin{frame}
+		\vfill
+		\centering
+		\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{sectioncolor}
+			\newline 
+			\usebeamerfont{title}\insertsectionhead\par%
+		\end{beamercolorbox}
+		\vfill
+	\end{frame}
+}
 
 \author[René Kremer]{\small René Kremer}
 \title[An Overview and Comparison of PRIMEs and PERFoRMs Approach to take up the Challenge of Industrial Digitization]{An Overview and Comparison of PRIMEs and PERFoRMs Approach to take up the Challenge of Industrial Digitization}
@@ -38,7 +51,7 @@
 	%\includegraphics[scale=0.1]{} 
 	\end{flushright}}
 \institute{Universität zu Lübeck} 
-\date{\today} 
+\date{26. Juni 2017} 
 
 \begin{document}
 
@@ -49,7 +62,6 @@
 % Magie für Templates oben rechts in der Ecke
 \addtobeamertemplate{frametitle}{}{%
 	\begin{textblock*}{100mm}(.85\textwidth,-1cm)
-		%\includegraphics[height=1cm,width=2cm]{logo-fhl.png}
 	\end{textblock*}}
 
 %	\begin{frame}{Agenda}
@@ -58,7 +70,7 @@
 
 \section{Motivation}
 
-\begin{frame}{Motivation}
+\begin{frame}{Current Situation}
 	\begin{itemize}
 		\item Market globalization leads to higher demands of customers in terms of quality, cost and product customization
 		\newline
@@ -73,7 +85,7 @@
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Digitalization leads to...}
+\begin{frame}{Digitization leads to...}
 	\begin{itemize}
 		\item Resources becoming pluggable and smarter (communicating, cooperating, collaborating)
 		\newline 
@@ -173,7 +185,7 @@
 \subsection{What is PERFoRM}
 \begin{frame}{What is PERFoRM I}
 	\begin{exampleblock}{PERFoRM}
-		The EU HORIZON 2020 project PERFoRM (Production harmonizEd Reconfiguration of Flexible Robots and Machinery) is aiming at the \textbf{conceptual transformation} of \emph{existing} production systems towards \textbf{agile}, \textbf{networked plug-and-produce production systems} in order to achieve a \emph{flexible manufacturing environment} based on f\textbf{ast reconfiguration} of machinery and robots as response to operational or business events.
+		The EU HORIZON 2020 project PERFoRM (Production harmonizEd Reconfiguration of Flexible Robots and Machinery) is aiming at the \textbf{conceptual transformation} of \emph{existing} production systems towards \textbf{agile}, \textbf{networked plug-and-produce production systems} in order to achieve a \emph{flexible manufacturing environment} based on f\textbf{ast reconfiguration} of machinery and robots as response to operational or business events. \cite{Harmonized}
 	\end{exampleblock}
 \end{frame}
 
@@ -223,7 +235,7 @@
 		\item PSA as bottleneck has yet to be tested
 		\newline
 		
-		\item PSA is single point of failure
+		\item PSA and PMA are single points of failure
 		\newline
 		
 		$\Rrightarrow$ Backup plan needed!
@@ -290,7 +302,7 @@
 		\item Middleware handles communication
 		\newline
 		
-		$\Rrightarrow$ single point of failure (as PSA in PRIME)
+		$\Rrightarrow$ single point of failure (as PSA/PMA in PRIME)
 	\end{itemize}
 \end{frame}
 
